@@ -6,7 +6,7 @@ name: Sync index
 
 on:
   release:
-    types: [published, edited, deleted, released, unpublished]
+    types: [published, edited, deleted]
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # A `release` event checks out the tag (detached HEAD); force the branch so
+      # the commit below can be pushed back to main.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
