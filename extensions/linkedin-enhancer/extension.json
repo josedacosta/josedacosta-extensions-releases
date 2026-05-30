@@ -6,20 +6,8 @@
   "category": "productivity",
   "storeStatus": "self-hosted",
   "sourcePrivate": true,
-  "browsers": [
-    "chrome",
-    "firefox",
-    "edge",
-    "opera"
-  ],
-  "permissions": [
-    "storage",
-    "activeTab",
-    "sidePanel",
-    "alarms",
-    "notifications",
-    "host: *.linkedin.com"
-  ],
+  "browsers": ["chrome", "firefox", "edge", "opera"],
+  "permissions": ["storage", "activeTab", "sidePanel", "alarms", "notifications", "host: *.linkedin.com"],
   "features": [
     {
       "title": "Stop the feed from auto-refreshing",
@@ -46,6 +34,68 @@
       "description": "Tells you when a new build is published so you can download and install it."
     }
   ],
+  "i18n": {
+    "fr": {
+      "tagline": "Des outils de productivité qui améliorent LinkedIn.",
+      "description": "Extension multi-navigateur qui améliore LinkedIn avec des outils de productivité : stopper le rafraîchissement automatique du fil, copier les posts et leurs commentaires en prompt prêt pour un LLM, masquer le contenu sponsorisé et les recommandations, et voir votre relation avec chaque auteur. Aucune collecte de données, aucun pistage.",
+      "features": [
+        {
+          "title": "Stopper le rafraîchissement automatique du fil",
+          "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet."
+        },
+        {
+          "title": "Copier les posts en prompt prêt pour un LLM",
+          "description": "Un clic copie un post et tout son fil de commentaires, formaté pour un LLM."
+        },
+        {
+          "title": "Masquer les pubs et posts sponsorisés",
+          "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un espace réservé."
+        },
+        {
+          "title": "Masquer suggestions et recommandations",
+          "description": "Supprime les posts suggérés et les cartes de recommandation de profils dans le fil."
+        },
+        {
+          "title": "Badge de relation sur les posts",
+          "description": "Affiche le degré de connexion (1er/2e/3e) et si vous suivez chaque auteur."
+        },
+        {
+          "title": "Notifications de mise à jour",
+          "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer."
+        }
+      ]
+    },
+    "pt": {
+      "tagline": "Ferramentas de produtividade que melhoram o LinkedIn.",
+      "description": "Extensão multi-navegador que melhora o LinkedIn com ferramentas de produtividade: parar a atualização automática do feed, copiar publicações e os seus comentários como prompt pronto para um LLM, ocultar conteúdo patrocinado e recomendações, e ver a sua relação com cada autor. Sem recolha de dados, sem rastreamento.",
+      "features": [
+        {
+          "title": "Parar a atualização automática do feed",
+          "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador."
+        },
+        {
+          "title": "Copiar publicações como prompt pronto para um LLM",
+          "description": "Um clique copia uma publicação e toda a sua árvore de comentários, formatada para um LLM."
+        },
+        {
+          "title": "Ocultar anúncios e publicações patrocinadas",
+          "description": "Substitui conteúdo patrocinado e promovido, e as ofertas Premium do LinkedIn, por um marcador."
+        },
+        {
+          "title": "Ocultar sugestões e recomendações",
+          "description": "Remove publicações sugeridas e cartões de recomendação de perfis no feed."
+        },
+        {
+          "title": "Selo de relação nas publicações",
+          "description": "Mostra o grau de ligação (1.º/2.º/3.º) e se segue cada autor."
+        },
+        {
+          "title": "Notificações de atualização",
+          "description": "Avisa quando uma nova versão é publicada para a descarregar e instalar."
+        }
+      ]
+    }
+  },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
   "latestVersion": "0.9.0"
 }
