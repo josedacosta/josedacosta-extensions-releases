@@ -49,3 +49,18 @@ jobs:
           git add -A
           git commit -m "chore: sync release index"
           git push
+
+      - name: Revalidate the showcase site
+        env:
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+        run: |
+          if [ -z "${REVALIDATE_SECRET:-}" ]; then
+            echo "REVALIDATE_SECRET not set, skipping revalidation."
+            exit 0
+          fi
+          # On-demand ISR: the showcase caches GitHub data aggressively and is
+          # refreshed instantly here on every release. Non-fatal on failure.
+          curl -fsS -X POST https://extensions.josedacosta.net/api/revalidate \
+            -H "x-revalidate-secret: ${REVALIDATE_SECRET}" \
+            && echo "Showcase revalidated." \
+            || echo "Revalidate call failed (non-fatal)."
