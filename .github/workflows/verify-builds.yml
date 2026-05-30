@@ -1,0 +1,35 @@
+name: Verify builds
+
+# Security tripwire: every published release is downloaded and scanned to make
+# sure the build artifacts ship no source maps and no source-code leaks. This
+# repository is public and must only distribute minified, production-safe builds.
+
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to verify (e.g. linkedin-enhancer-v0.8.0)
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Scan release builds for source leaks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify the release contains no source maps or source code
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: node scripts/check-release-security.mjs --tag "$TAG"

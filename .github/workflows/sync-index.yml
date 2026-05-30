@@ -6,7 +6,7 @@ name: Sync index
 
 on:
   release:
-    types: [published, edited, deleted]
+    types: [ published, edited, deleted ]
   workflow_dispatch:
 
 permissions:

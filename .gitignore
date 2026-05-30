@@ -1,10 +1,29 @@
-# OS noise
+# ===== Operating system =====
 .DS_Store
 Thumbs.db
 
-# Build artifacts are attached to GitHub Releases, never committed here
+# ===== Editor & IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== Build artifacts =====
+# Compiled builds are attached to GitHub Releases, never committed to the tree.
+# Source maps are never allowed here (see CLAUDE.md / check-release-security.mjs).
 *.zip
 *.xpi
 *.crx
+*.map
 dist/
 build/
+
+# ===== Logs =====
+*.log
+
+# ===== Personal & agent context (never pushed) =====
+jose/
+CLAUDE.md
+GEMINI.md
+AGENTS.md

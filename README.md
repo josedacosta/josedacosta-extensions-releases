@@ -1,66 +1,93 @@
-# José DA COSTA - Browser Extension Releases
+<div align="center">
 
-Public distribution of build artifacts for my browser extensions.
+# 🧩 Browser Extensions by José DA COSTA
 
-The source code of each extension is private. This repository hosts only the
-compiled builds, published as GitHub Releases, so anyone can download and install
-them without access to the source. GitHub does not allow public releases on a
-private repository (asset visibility follows repository visibility), so the
-private source repositories publish their builds here instead.
+### Public, ready-to-install builds of my browser extensions
 
-Showcase site: https://extensions.josedacosta.net
+The source code stays private — the release builds live here, free to download and install.
 
-## How this repository is organized
+<br/>
 
-- The compiled builds (`.zip`, `.xpi`) live in the **Releases**, not in the Git tree.
-- The Git tree holds only documentation and per-extension metadata, so it stays small and readable.
+<table align="center">
+<tr>
+<td align="center">
 
-```
-.
-├── README.md                  # this file
-├── INSTALL.md                 # per-browser install instructions
-└── extensions/
-    ├── _TEMPLATE/             # copy this folder to add a new extension
-    │   ├── extension.json     # canonical metadata
-    │   ├── README.md          # description and latest-release link
-    │   └── CHANGELOG.md       # human-readable changelog
-    └── <slug>/                # one folder per extension
-```
+### 🌐 &nbsp; Everything is better on the showcase site &nbsp; 🌐
 
-## Naming conventions
+Descriptions · screenshots · features · per-browser install guides
 
-| Item          | Pattern                          | Example                              |
-| ------------- | -------------------------------- | ------------------------------------ |
-| Git tag       | `<slug>-v<semver>`               | `linkedin-enhancer-v0.7.0`           |
-| Release name  | `<Name> <semver>`                | `LinkedIn Enhancer 0.7.0`            |
-| Browser asset | `<slug>-<version>-<browser>.zip` | `linkedin-enhancer-0.7.0-chrome.zip` |
-| Checksums     | `SHA256SUMS.txt`                 | one per release                      |
+# 👉 &nbsp; [**extensions.josedacosta.net**](https://extensions.josedacosta.net) &nbsp; 👈
 
-`<browser>` is one of `chrome`, `firefox`, `edge`, `opera`, `safari`. Source
-archives are never published here - the source code stays private.
+[![Open the showcase](https://img.shields.io/badge/Open_the_showcase-extensions.josedacosta.net-7a5cff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://extensions.josedacosta.net)
 
-A single repository hosts every extension. The slug prefix on each tag keeps
-releases from different extensions from colliding.
+</td>
+</tr>
+</table>
 
-## Available extensions
+<br/>
+
+[![Downloads](https://img.shields.io/badge/Downloads-GitHub_Releases-0078D7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/josedacosta/josedacosta-extensions-releases/releases)
+
+<br/>
+
+![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white)
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=flat-square&logo=microsoftedge&logoColor=white)
+![Brave](https://img.shields.io/badge/Brave-FB542B?style=flat-square&logo=brave&logoColor=white)
+![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=flat-square&logo=opera&logoColor=white)
+
+</div>
+
+---
+
+## ✨ Available extensions
+
+Each extension is presented on the showcase site, and its builds are published as **GitHub Releases** below. Click an extension to read what it does, then grab the build for your browser.
 
 <!-- BEGIN:index -->
 <!-- Managed by scripts/build-index.mjs (Sync index workflow). Do not edit by hand. -->
 
-| Extension | Category | Status | Latest | Browsers |
-| --------- | -------- | ------ | ------ | -------- |
-| [AI Chat Export by José DA COSTA](./extensions/ai-chat-export/) | productivity | self-hosted | [1.29.0](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/ai-chat-export-v1.29.0) | chrome, firefox, edge, brave, opera |
-| [LinkedIn Enhancer by José DA COSTA](./extensions/linkedin-enhancer/) | productivity | self-hosted | [0.8.1](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/linkedin-enhancer-v0.8.1) | chrome, firefox, edge, opera, safari |
+| Extension | Status | Latest | Browsers |
+| :-- | :-- | :-- | :-- |
+| **[AI Chat Export](https://extensions.josedacosta.net/en/extension/ai-chat-export)**<br/><sub>Export AI conversations to Markdown with all links preserved.</sub> | ![self-hosted](https://img.shields.io/badge/self--hosted-7a5cff?style=flat-square) | [![v1.29.0](https://img.shields.io/badge/v1.29.0-3fb950?style=flat-square)](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/ai-chat-export-v1.29.0) | ![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white) ![Edge](https://img.shields.io/badge/Edge-0078D7?style=flat-square&logo=microsoftedge&logoColor=white) ![Brave](https://img.shields.io/badge/Brave-FB542B?style=flat-square&logo=brave&logoColor=white) ![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=flat-square&logo=opera&logoColor=white) |
+| **[LinkedIn Enhancer](https://extensions.josedacosta.net/en/extension/linkedin-enhancer)**<br/><sub>Productivity tools that enhance LinkedIn.</sub> | ![self-hosted](https://img.shields.io/badge/self--hosted-7a5cff?style=flat-square) | [![v0.8.1](https://img.shields.io/badge/v0.8.1-3fb950?style=flat-square)](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/linkedin-enhancer-v0.8.1) | ![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white) ![Edge](https://img.shields.io/badge/Edge-0078D7?style=flat-square&logo=microsoftedge&logoColor=white) ![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=flat-square&logo=opera&logoColor=white) |
 
 <!-- END:index -->
 
-## Installation
+> 💡 The **Latest** badge links straight to the matching GitHub Release, where every per-browser build is attached.
 
-See [INSTALL.md](./INSTALL.md). Some of these extensions are distributed outside
-the Chrome Web Store, so they are installed in developer mode or as a signed
-Firefox package.
+---
 
-## License
+## ⬇️ How to install
 
-The build artifacts are provided as-is for installation. The source code remains
-private and is not covered by this repository.
+These builds install in **developer mode** (or as a signed Firefox package), so the steps differ per browser. The complete, up-to-date guide for **Chrome, Firefox, Edge, Brave, and Opera** lives on the showcase site:
+
+<div align="center">
+
+### 📖 [**Install guide → extensions.josedacosta.net/install**](https://extensions.josedacosta.net/en/install)
+
+</div>
+
+Quick version: open the latest **[Release](https://github.com/josedacosta/josedacosta-extensions-releases/releases)**, download the `.zip` for your browser, optionally verify it against the bundled `SHA256SUMS.txt`, then load it.
+
+---
+
+<details>
+<summary><b>ℹ️ About this repository</b></summary>
+
+<br/>
+
+The source code of each extension is **private**. GitHub does not allow public releases on a private repository, so every private source repo publishes its builds **here** — one minimal, public landing page for all of them. The Git tree holds only per-extension metadata, so other sites can tell when a release ships; the actual `.zip` / `.xpi` builds live in the **Releases**.
+
+**Release naming** — tag `<slug>-v<semver>` · asset `<slug>-<version>-<browser>.zip` · checksums `SHA256SUMS.txt`. `<browser>` is one of `chrome`, `firefox`, `edge`, `brave`, `opera`.
+
+</details>
+
+<div align="center">
+<br/>
+
+The build artifacts are provided as-is. The source code remains private.
+
+Made by **[José DA COSTA](https://github.com/josedacosta/)** · [extensions.josedacosta.net](https://extensions.josedacosta.net)
+
+</div>

@@ -10,8 +10,7 @@
     "chrome",
     "firefox",
     "edge",
-    "opera",
-    "safari"
+    "opera"
   ],
   "permissions": [
     "storage",
