@@ -50,7 +50,7 @@ releases from different extensions from colliding.
 | Extension | Category | Status | Latest | Browsers |
 | --------- | -------- | ------ | ------ | -------- |
 | [AI Chat Export by José DA COSTA](./extensions/ai-chat-export/) | productivity | self-hosted | [1.29.0](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/ai-chat-export-v1.29.0) | chrome, firefox, edge, brave, opera |
-| [LinkedIn Enhancer by José DA COSTA](./extensions/linkedin-enhancer/) | productivity | self-hosted | [0.8.0](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/linkedin-enhancer-v0.8.0) | chrome, firefox, edge, opera, safari |
+| [LinkedIn Enhancer by José DA COSTA](./extensions/linkedin-enhancer/) | productivity | self-hosted | [0.8.1](https://github.com/josedacosta/josedacosta-extensions-releases/releases/tag/linkedin-enhancer-v0.8.1) | chrome, firefox, edge, opera, safari |
 
 <!-- END:index -->
 
