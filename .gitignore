@@ -1,0 +1,10 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Build artifacts are attached to GitHub Releases, never committed here
+*.zip
+*.xpi
+*.crx
+dist/
+build/
