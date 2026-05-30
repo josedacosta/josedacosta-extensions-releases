@@ -1,0 +1,17 @@
+{
+  "slug": "linkedin-enhancer",
+  "name": "LinkedIn Enhancer by José DA COSTA",
+  "tagline": "Productivity tools that enhance LinkedIn.",
+  "category": "productivity",
+  "storeStatus": "self-hosted",
+  "sourcePrivate": true,
+  "browsers": [
+    "chrome",
+    "firefox",
+    "edge",
+    "opera",
+    "safari"
+  ],
+  "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
+  "latestVersion": null
+}

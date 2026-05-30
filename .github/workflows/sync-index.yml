@@ -1,0 +1,47 @@
+name: Sync index
+
+# Keeps README.md and each extensions/<slug>/extension.json in sync with the
+# published releases. Fires when a release is created here (including releases
+# pushed by another repository's workflow via a PAT), and can be run by hand.
+
+on:
+  release:
+    types: [published, edited, deleted, released, unpublished]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-index
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Rebuild release index
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rebuild index from releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/build-index.mjs
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Index already up to date."
+            exit 0
+          fi
+          git config user.name "José DA COSTA"
+          git config user.email "contact@josedacosta.info"
+          git add -A
+          git commit -m "chore: sync release index"
+          git push

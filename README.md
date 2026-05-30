@@ -29,21 +29,29 @@ Showcase site: https://extensions.josedacosta.net
 
 ## Naming conventions
 
-| Item        | Pattern                                   | Example                              |
-| ----------- | ----------------------------------------- | ------------------------------------ |
-| Git tag     | `<slug>-v<semver>`                        | `tab-master-pro-v2.1.0`              |
-| Release name| `<Name> <semver>`                         | `Tab Master Pro 2.1.0`               |
-| Chrome asset| `<slug>-<version>-chrome.zip`             | `tab-master-pro-2.1.0-chrome.zip`    |
-| Firefox     | `<slug>-<version>-firefox.xpi`            | `tab-master-pro-2.1.0-firefox.xpi`   |
-| Edge        | `<slug>-<version>-edge.zip`               | `tab-master-pro-2.1.0-edge.zip`      |
-| Checksums   | `SHA256SUMS.txt`                          | one per release                      |
+| Item          | Pattern                          | Example                              |
+| ------------- | -------------------------------- | ------------------------------------ |
+| Git tag       | `<slug>-v<semver>`               | `linkedin-enhancer-v0.7.0`           |
+| Release name  | `<Name> <semver>`                | `LinkedIn Enhancer 0.7.0`            |
+| Browser asset | `<slug>-<version>-<browser>.zip` | `linkedin-enhancer-0.7.0-chrome.zip` |
+| Checksums     | `SHA256SUMS.txt`                 | one per release                      |
+
+`<browser>` is one of `chrome`, `firefox`, `edge`, `opera`, `safari`. Source
+archives are never published here - the source code stays private.
 
 A single repository hosts every extension. The slug prefix on each tag keeps
 releases from different extensions from colliding.
 
 ## Available extensions
 
-No public release yet. New extensions appear here once their first build is published.
+<!-- BEGIN:index -->
+<!-- Managed by scripts/build-index.mjs (Sync index workflow). Do not edit by hand. -->
+
+| Extension | Category | Status | Latest | Browsers |
+| --------- | -------- | ------ | ------ | -------- |
+| [LinkedIn Enhancer by José DA COSTA](./extensions/linkedin-enhancer/) | productivity | self-hosted | unreleased | chrome, firefox, edge, opera, safari |
+
+<!-- END:index -->
 
 ## Installation
 
