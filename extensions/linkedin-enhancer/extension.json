@@ -16,15 +16,45 @@
   "category": "productivity",
   "storeStatus": "self-hosted",
   "sourcePrivate": true,
-  "browsers": ["chrome", "firefox", "edge", "opera"],
-  "permissions": ["storage", "activeTab", "sidePanel", "alarms", "notifications", "host: *.linkedin.com"],
+  "browsers": [
+    "chrome",
+    "firefox",
+    "edge",
+    "opera"
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "sidePanel",
+    "alarms",
+    "notifications",
+    "host: *.linkedin.com"
+  ],
   "features": [
-    { "title": "Stop the feed from auto-refreshing", "description": "Keeps your scroll position and your draft comment when you switch tabs." },
-    { "title": "Copy posts as an LLM-ready prompt", "description": "One click copies a post and its full comment thread, formatted for an LLM." },
-    { "title": "Hide ads and sponsored posts", "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a placeholder." },
-    { "title": "Hide suggestions and recommendations", "description": "Removes suggested posts and in-feed profile recommendation cards." },
-    { "title": "Relationship badge on posts", "description": "Shows the connection degree (1st/2nd/3rd) and whether you follow each author." },
-    { "title": "Update notifications", "description": "Tells you when a new build is published so you can download and install it." }
+    {
+      "title": "Stop the feed from auto-refreshing",
+      "description": "Keeps your scroll position and your draft comment when you switch tabs."
+    },
+    {
+      "title": "Copy posts as an LLM-ready prompt",
+      "description": "One click copies a post and its full comment thread, formatted for an LLM."
+    },
+    {
+      "title": "Hide ads and sponsored posts",
+      "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a placeholder."
+    },
+    {
+      "title": "Hide suggestions and recommendations",
+      "description": "Removes suggested posts and in-feed profile recommendation cards."
+    },
+    {
+      "title": "Relationship badge on posts",
+      "description": "Shows the connection degree (1st/2nd/3rd) and whether you follow each author."
+    },
+    {
+      "title": "Update notifications",
+      "description": "Tells you when a new build is published so you can download and install it."
+    }
   ],
   "i18n": {
     "fr": {
@@ -41,12 +71,30 @@
         "Aucune donnée ne quitte votre navigateur ; chaque outil s'active seul"
       ],
       "features": [
-        { "title": "Stopper le rafraîchissement automatique du fil", "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet." },
-        { "title": "Copier les posts en prompt prêt pour un LLM", "description": "Un clic copie un post et tout son fil de commentaires, formaté pour un LLM." },
-        { "title": "Masquer les pubs et posts sponsorisés", "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un espace réservé." },
-        { "title": "Masquer suggestions et recommandations", "description": "Supprime les posts suggérés et les cartes de recommandation de profils dans le fil." },
-        { "title": "Badge de relation sur les posts", "description": "Affiche le degré de connexion (1er/2e/3e) et si vous suivez chaque auteur." },
-        { "title": "Notifications de mise à jour", "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer." }
+        {
+          "title": "Stopper le rafraîchissement automatique du fil",
+          "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet."
+        },
+        {
+          "title": "Copier les posts en prompt prêt pour un LLM",
+          "description": "Un clic copie un post et tout son fil de commentaires, formaté pour un LLM."
+        },
+        {
+          "title": "Masquer les pubs et posts sponsorisés",
+          "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un espace réservé."
+        },
+        {
+          "title": "Masquer suggestions et recommandations",
+          "description": "Supprime les posts suggérés et les cartes de recommandation de profils dans le fil."
+        },
+        {
+          "title": "Badge de relation sur les posts",
+          "description": "Affiche le degré de connexion (1er/2e/3e) et si vous suivez chaque auteur."
+        },
+        {
+          "title": "Notifications de mise à jour",
+          "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer."
+        }
       ]
     },
     "pt": {
@@ -63,12 +111,30 @@
         "Nenhum dado sai do navegador; cada ferramenta liga-se de forma independente"
       ],
       "features": [
-        { "title": "Parar a atualização automática do feed", "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador." },
-        { "title": "Copiar publicações como prompt pronto para um LLM", "description": "Um clique copia uma publicação e toda a sua árvore de comentários, formatada para um LLM." },
-        { "title": "Ocultar anúncios e publicações patrocinadas", "description": "Substitui conteúdo patrocinado e promovido, e as ofertas Premium do LinkedIn, por um marcador." },
-        { "title": "Ocultar sugestões e recomendações", "description": "Remove publicações sugeridas e cartões de recomendação de perfis no feed." },
-        { "title": "Selo de relação nas publicações", "description": "Mostra o grau de ligação (1.º/2.º/3.º) e se segue cada autor." },
-        { "title": "Notificações de atualização", "description": "Avisa quando uma nova versão é publicada para a descarregar e instalar." }
+        {
+          "title": "Parar a atualização automática do feed",
+          "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador."
+        },
+        {
+          "title": "Copiar publicações como prompt pronto para um LLM",
+          "description": "Um clique copia uma publicação e toda a sua árvore de comentários, formatada para um LLM."
+        },
+        {
+          "title": "Ocultar anúncios e publicações patrocinadas",
+          "description": "Substitui conteúdo patrocinado e promovido, e as ofertas Premium do LinkedIn, por um marcador."
+        },
+        {
+          "title": "Ocultar sugestões e recomendações",
+          "description": "Remove publicações sugeridas e cartões de recomendação de perfis no feed."
+        },
+        {
+          "title": "Selo de relação nas publicações",
+          "description": "Mostra o grau de ligação (1.º/2.º/3.º) e se segue cada autor."
+        },
+        {
+          "title": "Notificações de atualização",
+          "description": "Avisa quando uma nova versão é publicada para a descarregar e instalar."
+        }
       ]
     }
   },

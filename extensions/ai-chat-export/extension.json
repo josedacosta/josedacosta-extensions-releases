@@ -16,13 +16,38 @@
   "category": "productivity",
   "storeStatus": "self-hosted",
   "sourcePrivate": true,
-  "browsers": ["chrome", "firefox", "edge", "brave", "opera"],
-  "permissions": ["activeTab", "scripting", "storage", "downloads", "webNavigation", "host: AI chat sites"],
+  "browsers": [
+    "chrome",
+    "firefox",
+    "edge",
+    "brave",
+    "opera"
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads",
+    "webNavigation",
+    "host: AI chat sites"
+  ],
   "features": [
-    { "title": "Export to Markdown", "description": "Saves the full conversation as a clean, readable Markdown file." },
-    { "title": "Links preserved", "description": "Keeps every source link and citation intact in the export." },
-    { "title": "Multi-platform", "description": "Works on ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral." },
-    { "title": "One-click download", "description": "Grabs the current conversation straight from the page, no copy-paste." }
+    {
+      "title": "Export to Markdown",
+      "description": "Saves the full conversation as a clean, readable Markdown file."
+    },
+    {
+      "title": "Links preserved",
+      "description": "Keeps every source link and citation intact in the export."
+    },
+    {
+      "title": "Multi-platform",
+      "description": "Works on ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral."
+    },
+    {
+      "title": "One-click download",
+      "description": "Grabs the current conversation straight from the page, no copy-paste."
+    }
   ],
   "i18n": {
     "fr": {
@@ -39,10 +64,22 @@
         "Tout reste dans votre navigateur - aucun serveur, aucun suivi, aucun compte"
       ],
       "features": [
-        { "title": "Export en Markdown", "description": "Enregistre toute la conversation dans un fichier Markdown propre et lisible." },
-        { "title": "Liens conservés", "description": "Garde intacts chaque lien source et citation dans l'export." },
-        { "title": "Multi-plateforme", "description": "Fonctionne avec ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral." },
-        { "title": "Téléchargement en un clic", "description": "Récupère la conversation directement depuis la page, sans copier-coller." }
+        {
+          "title": "Export en Markdown",
+          "description": "Enregistre toute la conversation dans un fichier Markdown propre et lisible."
+        },
+        {
+          "title": "Liens conservés",
+          "description": "Garde intacts chaque lien source et citation dans l'export."
+        },
+        {
+          "title": "Multi-plateforme",
+          "description": "Fonctionne avec ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral."
+        },
+        {
+          "title": "Téléchargement en un clic",
+          "description": "Récupère la conversation directement depuis la page, sans copier-coller."
+        }
       ]
     },
     "pt": {
@@ -59,13 +96,25 @@
         "Corre todo no seu navegador - sem servidores, sem rastreio, sem contas"
       ],
       "features": [
-        { "title": "Exportar para Markdown", "description": "Guarda toda a conversa num ficheiro Markdown limpo e legível." },
-        { "title": "Links preservados", "description": "Mantém intactos todos os links de origem e citações na exportação." },
-        { "title": "Multi-plataforma", "description": "Funciona no ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral." },
-        { "title": "Descarregar com um clique", "description": "Obtém a conversa diretamente da página, sem copiar e colar." }
+        {
+          "title": "Exportar para Markdown",
+          "description": "Guarda toda a conversa num ficheiro Markdown limpo e legível."
+        },
+        {
+          "title": "Links preservados",
+          "description": "Mantém intactos todos os links de origem e citações na exportação."
+        },
+        {
+          "title": "Multi-plataforma",
+          "description": "Funciona no ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral."
+        },
+        {
+          "title": "Descarregar com um clique",
+          "description": "Obtém a conversa diretamente da página, sem copiar e colar."
+        }
       ]
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/ai-chat-export",
-  "latestVersion": "1.29.0"
+  "latestVersion": "1.30.0"
 }
