@@ -2,97 +2,73 @@
   "slug": "linkedin-enhancer",
   "name": "LinkedIn Enhancer by José DA COSTA",
   "tagline": "Productivity tools that enhance LinkedIn.",
-  "description": "Cross-browser extension that enhances LinkedIn with productivity tools: stop the feed from auto-refreshing, copy posts and their comments as an LLM-ready prompt, hide sponsored content and recommendations, and see your relationship with each author. No data collection, no tracking.",
+  "description": "LinkedIn Enhancer adds practical productivity tools directly inside LinkedIn: it stops the feed from reloading when you switch tabs, hides ads and feed clutter, copies any post and its full comment thread as a ready-to-use AI prompt, and shows your relationship with each author. Every tool is a simple on/off toggle, nothing is uploaded, and all settings stay in your browser.",
+  "problem": "LinkedIn reloads your feed the moment you switch tabs, wiping your scroll position and any comment you were drafting. Sponsored posts, LinkedIn's own Premium upsells, suggested posts, and 'people to follow' cards push real updates out of view. And when a post sparks a good discussion in the comments, there is no clean way to pull the text out to think it through. This extension removes that friction in place.",
+  "highlights": [
+    "Keep your scroll position and draft comment when you switch tabs",
+    "One-click Copy button turns a post and its comments into an AI prompt",
+    "Auto-expands long comment threads before copying, so nothing is missed",
+    "Hide sponsored posts and LinkedIn's own Premium upsells",
+    "Hide suggested posts and 'people to follow' recommendation cards",
+    "See each author's connection degree and whether you follow them",
+    "No data leaves your browser; every tool is an independent toggle"
+  ],
   "category": "productivity",
   "storeStatus": "self-hosted",
   "sourcePrivate": true,
   "browsers": ["chrome", "firefox", "edge", "opera"],
   "permissions": ["storage", "activeTab", "sidePanel", "alarms", "notifications", "host: *.linkedin.com"],
   "features": [
-    {
-      "title": "Stop the feed from auto-refreshing",
-      "description": "Keeps your scroll position and your draft comment when you switch tabs."
-    },
-    {
-      "title": "Copy posts as an LLM-ready prompt",
-      "description": "One click copies a post and its full comment thread, formatted for an LLM."
-    },
-    {
-      "title": "Hide ads and sponsored posts",
-      "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a placeholder."
-    },
-    {
-      "title": "Hide suggestions and recommendations",
-      "description": "Removes suggested posts and in-feed profile recommendation cards."
-    },
-    {
-      "title": "Relationship badge on posts",
-      "description": "Shows the connection degree (1st/2nd/3rd) and whether you follow each author."
-    },
-    {
-      "title": "Update notifications",
-      "description": "Tells you when a new build is published so you can download and install it."
-    }
+    { "title": "Stop the feed from auto-refreshing", "description": "Keeps your scroll position and your draft comment when you switch tabs." },
+    { "title": "Copy posts as an LLM-ready prompt", "description": "One click copies a post and its full comment thread, formatted for an LLM." },
+    { "title": "Hide ads and sponsored posts", "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a placeholder." },
+    { "title": "Hide suggestions and recommendations", "description": "Removes suggested posts and in-feed profile recommendation cards." },
+    { "title": "Relationship badge on posts", "description": "Shows the connection degree (1st/2nd/3rd) and whether you follow each author." },
+    { "title": "Update notifications", "description": "Tells you when a new build is published so you can download and install it." }
   ],
   "i18n": {
     "fr": {
       "tagline": "Des outils de productivité qui améliorent LinkedIn.",
-      "description": "Extension multi-navigateur qui améliore LinkedIn avec des outils de productivité : stopper le rafraîchissement automatique du fil, copier les posts et leurs commentaires en prompt prêt pour un LLM, masquer le contenu sponsorisé et les recommandations, et voir votre relation avec chaque auteur. Aucune collecte de données, aucun pistage.",
+      "description": "LinkedIn Enhancer ajoute des outils concrets directement dans LinkedIn : il empêche le fil de se recharger quand vous changez d'onglet, masque les pubs et le superflu du fil, copie n'importe quel post et tout son fil de commentaires sous forme de prompt prêt pour l'IA, et affiche votre relation avec chaque auteur. Chaque outil est un simple interrupteur, rien n'est envoyé en ligne, et tous les réglages restent dans votre navigateur.",
+      "problem": "LinkedIn recharge votre fil dès que vous changez d'onglet, ce qui efface votre position de lecture et le commentaire que vous étiez en train d'écrire. Les posts sponsorisés, les incitations Premium de LinkedIn, les posts suggérés et les cartes 'personnes à suivre' repoussent les vraies actualités hors de vue. Et quand un post lance une bonne discussion en commentaires, il n'existe aucun moyen propre d'en extraire le texte pour l'analyser. Cette extension supprime ces frictions sur place.",
+      "highlights": [
+        "Gardez votre position de lecture et votre brouillon en changeant d'onglet",
+        "Un bouton Copier transforme un post et ses commentaires en prompt IA",
+        "Déplie les longs fils de commentaires avant de copier, sans rien oublier",
+        "Masquez les posts sponsorisés et les incitations Premium de LinkedIn",
+        "Masquez les posts suggérés et les cartes 'personnes à suivre'",
+        "Voyez le degré de relation de chaque auteur et si vous le suivez",
+        "Aucune donnée ne quitte votre navigateur ; chaque outil s'active seul"
+      ],
       "features": [
-        {
-          "title": "Stopper le rafraîchissement automatique du fil",
-          "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet."
-        },
-        {
-          "title": "Copier les posts en prompt prêt pour un LLM",
-          "description": "Un clic copie un post et tout son fil de commentaires, formaté pour un LLM."
-        },
-        {
-          "title": "Masquer les pubs et posts sponsorisés",
-          "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un espace réservé."
-        },
-        {
-          "title": "Masquer suggestions et recommandations",
-          "description": "Supprime les posts suggérés et les cartes de recommandation de profils dans le fil."
-        },
-        {
-          "title": "Badge de relation sur les posts",
-          "description": "Affiche le degré de connexion (1er/2e/3e) et si vous suivez chaque auteur."
-        },
-        {
-          "title": "Notifications de mise à jour",
-          "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer."
-        }
+        { "title": "Stopper le rafraîchissement automatique du fil", "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet." },
+        { "title": "Copier les posts en prompt prêt pour un LLM", "description": "Un clic copie un post et tout son fil de commentaires, formaté pour un LLM." },
+        { "title": "Masquer les pubs et posts sponsorisés", "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un espace réservé." },
+        { "title": "Masquer suggestions et recommandations", "description": "Supprime les posts suggérés et les cartes de recommandation de profils dans le fil." },
+        { "title": "Badge de relation sur les posts", "description": "Affiche le degré de connexion (1er/2e/3e) et si vous suivez chaque auteur." },
+        { "title": "Notifications de mise à jour", "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer." }
       ]
     },
     "pt": {
       "tagline": "Ferramentas de produtividade que melhoram o LinkedIn.",
-      "description": "Extensão multi-navegador que melhora o LinkedIn com ferramentas de produtividade: parar a atualização automática do feed, copiar publicações e os seus comentários como prompt pronto para um LLM, ocultar conteúdo patrocinado e recomendações, e ver a sua relação com cada autor. Sem recolha de dados, sem rastreamento.",
+      "description": "O LinkedIn Enhancer acrescenta ferramentas práticas dentro do próprio LinkedIn: impede que o feed se recarregue ao mudar de separador, oculta anúncios e ruído do feed, copia qualquer publicação e toda a sua árvore de comentários como um prompt pronto para IA, e mostra a sua relação com cada autor. Cada ferramenta é um simples botão de ligar/desligar, nada é enviado para a Internet, e todas as definições ficam no seu navegador.",
+      "problem": "O LinkedIn recarrega o feed assim que muda de separador, apagando a sua posição de leitura e o comentário que estava a escrever. Publicações patrocinadas, ofertas Premium do próprio LinkedIn, publicações sugeridas e cartões de 'pessoas a seguir' empurram as atualizações reais para fora do ecrã. E quando uma publicação gera uma boa discussão nos comentários, não há forma limpa de extrair o texto para o analisar. Esta extensão elimina essa fricção no momento.",
+      "highlights": [
+        "Mantenha a posição de leitura e o rascunho ao mudar de separador",
+        "Um botão Copiar transforma a publicação e os comentários num prompt de IA",
+        "Expande fios de comentários longos antes de copiar, sem deixar nada de fora",
+        "Oculte publicações patrocinadas e ofertas Premium do próprio LinkedIn",
+        "Oculte publicações sugeridas e cartões de 'pessoas a seguir'",
+        "Veja o grau de ligação de cada autor e se o segue",
+        "Nenhum dado sai do navegador; cada ferramenta liga-se de forma independente"
+      ],
       "features": [
-        {
-          "title": "Parar a atualização automática do feed",
-          "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador."
-        },
-        {
-          "title": "Copiar publicações como prompt pronto para um LLM",
-          "description": "Um clique copia uma publicação e toda a sua árvore de comentários, formatada para um LLM."
-        },
-        {
-          "title": "Ocultar anúncios e publicações patrocinadas",
-          "description": "Substitui conteúdo patrocinado e promovido, e as ofertas Premium do LinkedIn, por um marcador."
-        },
-        {
-          "title": "Ocultar sugestões e recomendações",
-          "description": "Remove publicações sugeridas e cartões de recomendação de perfis no feed."
-        },
-        {
-          "title": "Selo de relação nas publicações",
-          "description": "Mostra o grau de ligação (1.º/2.º/3.º) e se segue cada autor."
-        },
-        {
-          "title": "Notificações de atualização",
-          "description": "Avisa quando uma nova versão é publicada para a descarregar e instalar."
-        }
+        { "title": "Parar a atualização automática do feed", "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador." },
+        { "title": "Copiar publicações como prompt pronto para um LLM", "description": "Um clique copia uma publicação e toda a sua árvore de comentários, formatada para um LLM." },
+        { "title": "Ocultar anúncios e publicações patrocinadas", "description": "Substitui conteúdo patrocinado e promovido, e as ofertas Premium do LinkedIn, por um marcador." },
+        { "title": "Ocultar sugestões e recomendações", "description": "Remove publicações sugeridas e cartões de recomendação de perfis no feed." },
+        { "title": "Selo de relação nas publicações", "description": "Mostra o grau de ligação (1.º/2.º/3.º) e se segue cada autor." },
+        { "title": "Notificações de atualização", "description": "Avisa quando uma nova versão é publicada para a descarregar e instalar." }
       ]
     }
   },
