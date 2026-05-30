@@ -1,0 +1,44 @@
+{
+  "slug": "ai-chat-export",
+  "name": "AI Chat Export by José DA COSTA",
+  "tagline": "Export AI conversations to Markdown with all links preserved.",
+  "description": "Browser extension to export AI chatbot conversations to clean Markdown. Works on ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral, keeping every source link and citation intact. No data collection.",
+  "category": "productivity",
+  "storeStatus": "self-hosted",
+  "sourcePrivate": true,
+  "browsers": [
+    "chrome",
+    "firefox",
+    "edge",
+    "brave",
+    "opera"
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads",
+    "webNavigation",
+    "host: AI chat sites"
+  ],
+  "features": [
+    {
+      "title": "Export to Markdown",
+      "description": "Saves the full conversation as a clean, readable Markdown file."
+    },
+    {
+      "title": "Links preserved",
+      "description": "Keeps every source link and citation intact in the export."
+    },
+    {
+      "title": "Multi-platform",
+      "description": "Works on ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral."
+    },
+    {
+      "title": "One-click download",
+      "description": "Grabs the current conversation straight from the page, no copy-paste."
+    }
+  ],
+  "homepage": "https://extensions.josedacosta.net/en/extension/ai-chat-export",
+  "latestVersion": null
+}

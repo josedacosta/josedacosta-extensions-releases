@@ -6,8 +6,21 @@
   "category": "productivity",
   "storeStatus": "self-hosted",
   "sourcePrivate": true,
-  "browsers": ["chrome", "firefox", "edge", "opera", "safari"],
-  "permissions": ["storage", "activeTab", "sidePanel", "alarms", "notifications", "host: *.linkedin.com"],
+  "browsers": [
+    "chrome",
+    "firefox",
+    "edge",
+    "opera",
+    "safari"
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "sidePanel",
+    "alarms",
+    "notifications",
+    "host: *.linkedin.com"
+  ],
   "features": [
     {
       "title": "Stop the feed from auto-refreshing",

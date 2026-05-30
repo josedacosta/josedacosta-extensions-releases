@@ -49,6 +49,7 @@ releases from different extensions from colliding.
 
 | Extension | Category | Status | Latest | Browsers |
 | --------- | -------- | ------ | ------ | -------- |
+| [AI Chat Export by José DA COSTA](./extensions/ai-chat-export/) | productivity | self-hosted | unreleased | chrome, firefox, edge, brave, opera |
 | [LinkedIn Enhancer by José DA COSTA](./extensions/linkedin-enhancer/) | productivity | self-hosted | unreleased | chrome, firefox, edge, opera, safari |
 
 <!-- END:index -->
