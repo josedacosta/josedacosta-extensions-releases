@@ -2,15 +2,37 @@
   "slug": "linkedin-enhancer",
   "name": "LinkedIn Enhancer by José DA COSTA",
   "tagline": "Productivity tools that enhance LinkedIn.",
+  "description": "Cross-browser extension that enhances LinkedIn with productivity tools: stop the feed from auto-refreshing, copy posts and their comments as an LLM-ready prompt, hide sponsored content and recommendations, and see your relationship with each author. No data collection, no tracking.",
   "category": "productivity",
   "storeStatus": "self-hosted",
   "sourcePrivate": true,
-  "browsers": [
-    "chrome",
-    "firefox",
-    "edge",
-    "opera",
-    "safari"
+  "browsers": ["chrome", "firefox", "edge", "opera", "safari"],
+  "permissions": ["storage", "activeTab", "sidePanel", "alarms", "notifications", "host: *.linkedin.com"],
+  "features": [
+    {
+      "title": "Stop the feed from auto-refreshing",
+      "description": "Keeps your scroll position and your draft comment when you switch tabs."
+    },
+    {
+      "title": "Copy posts as an LLM-ready prompt",
+      "description": "One click copies a post and its full comment thread, formatted for an LLM."
+    },
+    {
+      "title": "Hide ads and sponsored posts",
+      "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a placeholder."
+    },
+    {
+      "title": "Hide suggestions and recommendations",
+      "description": "Removes suggested posts and in-feed profile recommendation cards."
+    },
+    {
+      "title": "Relationship badge on posts",
+      "description": "Shows the connection degree (1st/2nd/3rd) and whether you follow each author."
+    },
+    {
+      "title": "Update notifications",
+      "description": "Tells you when a new build is published so you can download and install it."
+    }
   ],
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
   "latestVersion": null
