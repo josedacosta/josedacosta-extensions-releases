@@ -1,0 +1,11 @@
+# GitHub attaches auto-generated "Source code (zip)" and "Source code (tar.gz)"
+# archives to every release. There is no setting to hide those links, but the
+# archives are produced with `git archive`, which honors `export-ignore`.
+#
+# This repository publishes only public release builds (attached as Release
+# assets) and the metadata other sites read. It must never ship source code, so
+# every tracked file is excluded from the generated archives, leaving them empty.
+#
+# Note: this only affects tags created after this file is committed; re-tag an
+# existing release if you need its archive emptied too.
+* export-ignore
