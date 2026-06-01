@@ -73,11 +73,13 @@ Quick version: open the latest **[Release](https://github.com/josedacosta/joseda
 ---
 
 <details>
-<summary><b>ℹ️ About this repository</b></summary>
+<summary><b>ℹ️ Why this repository exists — one public home for several of my extensions</b></summary>
 
 <br/>
 
 The source code of each extension is **private**. GitHub does not allow public releases on a private repository, so every private source repo publishes its builds **here** — one minimal, public landing page for all of them. The Git tree holds only per-extension metadata, so other sites can tell when a release ships; the actual `.zip` / `.xpi` builds live in the **Releases**.
+
+Keeping the source private isn't about hiding anything — there's nothing secret in it. It's that I'd rather not hand the work away for free. A lot of careful architecture and optimization went into these extensions, and with today's AI it would be trivial for someone to take that work and spin it into something else. I'd simply prefer that didn't happen.
 
 **Release naming** — tag `<slug>-v<semver>` · asset `<slug>-<version>-<browser>.zip` · checksums `SHA256SUMS.txt`. `<browser>` is one of `chrome`, `firefox`, `edge`, `brave`, `opera`.
 
