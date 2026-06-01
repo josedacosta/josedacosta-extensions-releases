@@ -20,6 +20,7 @@
     "chrome",
     "firefox",
     "edge",
+    "brave",
     "opera"
   ],
   "permissions": [
@@ -212,5 +213,5 @@
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
-  "latestVersion": "0.15.3"
+  "latestVersion": "0.15.4"
 }
