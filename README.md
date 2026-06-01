@@ -90,6 +90,6 @@ The build artifacts are provided as-is. The source code remains private.
 
 Made by <a href="https://github.com/josedacosta/" target="_blank" rel="noopener"><b>José DA COSTA</b></a>
 
-<a href="https://github.com/josedacosta/" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.josedacosta.net" target="_blank" rel="noopener">www.josedacosta.net</a> · <a href="https://portfolio.josedacosta.net" target="_blank" rel="noopener">Portfolio</a> · <a href="https://extensions.josedacosta.net" target="_blank" rel="noopener">Extensions</a>
+<a href="https://github.com/josedacosta/" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.josedacosta.net" target="_blank" rel="noopener">josedacosta.net</a> · <a href="https://portfolio.josedacosta.net" target="_blank" rel="noopener">Portfolio</a> · <a href="https://extensions.josedacosta.net" target="_blank" rel="noopener">Extensions</a>
 
 </div>
