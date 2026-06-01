@@ -2,15 +2,15 @@
   "slug": "linkedin-enhancer",
   "name": "LinkedIn Enhancer by José DA COSTA",
   "tagline": "Productivity tools that enhance LinkedIn.",
-  "description": "LinkedIn Enhancer adds practical productivity tools directly inside LinkedIn: it stops the feed from reloading when you switch tabs, hides ads and feed clutter, copies any post and its full comment thread as a ready-to-use AI prompt, and shows your relationship with each author. Every tool is a simple on/off toggle, nothing is uploaded, and all settings stay in your browser.",
-  "problem": "LinkedIn reloads your feed the moment you switch tabs, wiping your scroll position and any comment you were drafting. Sponsored posts, LinkedIn's own Premium upsells, suggested posts, and 'people to follow' cards push real updates out of view. And when a post sparks a good discussion in the comments, there is no clean way to pull the text out to think it through. This extension removes that friction in place.",
+  "description": "LinkedIn Enhancer adds practical productivity tools directly inside LinkedIn: it stops the feed from reloading when you switch tabs, stops feed videos from autoplaying, hides ads and feed clutter (sponsored posts, suggestions, recommendations, job-change cards, the LinkedIn News module), copies any post and its full comment thread as a ready-to-use AI prompt, can archive everything you scroll past to a private on-device database, adds a one-click \"Not interested\" button, and shows your relationship with each author. Every tool is a simple on/off toggle, nothing is uploaded, and all settings stay in your browser.",
+  "problem": "LinkedIn reloads your feed the moment you switch tabs, wiping your scroll position and any comment you were drafting. Videos start on their own, while sponsored posts, Premium upsells, suggested posts, \"people to follow\" cards, job-change announcements and the News module push real updates out of view. And when a post sparks a good discussion, there is no clean way to pull the text out to think it through. This extension removes that friction in place — privately, with everything staying on your device.",
   "highlights": [
     "Keep your scroll position and draft comment when you switch tabs",
-    "One-click Copy button turns a post and its comments into an AI prompt",
-    "Auto-expands long comment threads before copying, so nothing is missed",
-    "Hide sponsored posts and LinkedIn's own Premium upsells",
-    "Hide suggested posts and 'people to follow' recommendation cards",
-    "See each author's connection degree and whether you follow them",
+    "Stop feed videos from autoplaying as you scroll",
+    "One-click Copy turns a post, its link and its comments into an AI prompt",
+    "Archive everything you scroll past to a private, on-device database",
+    "Hide ads, suggestions, recommendations, job changes and LinkedIn News",
+    "A \"Not interested\" button to tune your feed privately, in one click",
     "No data leaves your browser; every tool is an independent toggle"
   ],
   "category": "productivity",
@@ -25,31 +25,56 @@
   "permissions": [
     "storage",
     "activeTab",
-    "sidePanel",
     "alarms",
     "notifications",
+    "clipboardRead",
+    "unlimitedStorage",
     "host: *.linkedin.com"
   ],
   "features": [
     {
       "title": "Stop the feed from auto-refreshing",
-      "description": "Keeps your scroll position and your draft comment when you switch tabs."
+      "description": "Keeps your scroll position and your draft comment when you switch tabs and come back."
     },
     {
-      "title": "Copy posts as an LLM-ready prompt",
-      "description": "One click copies a post and its full comment thread, formatted for an LLM."
+      "title": "Stop videos from autoplaying",
+      "description": "Feed videos no longer start on their own as you scroll; they play only when you click."
+    },
+    {
+      "title": "Copy a post as an LLM-ready prompt",
+      "description": "One click copies a post, its real link and its full comment thread, formatted for an LLM. The prompt text is fully customizable."
+    },
+    {
+      "title": "Archive the posts you scroll past",
+      "description": "Optionally records every post you see into a local, on-device database you can preview and export as JSON, CSV or XLS. Nothing leaves your browser."
     },
     {
       "title": "Hide ads and sponsored posts",
-      "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a placeholder."
+      "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a small placeholder."
     },
     {
-      "title": "Hide suggestions and recommendations",
-      "description": "Removes suggested posts and in-feed profile recommendation cards."
+      "title": "Hide suggested posts",
+      "description": "Replaces \"Suggestions\" cards in the feed with a placeholder (off by default)."
+    },
+    {
+      "title": "Hide profile recommendations",
+      "description": "Removes the in-feed \"Recommended for you\" people-to-follow cards."
+    },
+    {
+      "title": "Hide job-change cards",
+      "description": "Removes \"started a new position\" occasion cards from the feed."
+    },
+    {
+      "title": "Hide LinkedIn News",
+      "description": "Removes the right-rail \"LinkedIn News\" module with its trending stories."
+    },
+    {
+      "title": "One-click \"Not interested\"",
+      "description": "Adds a \"Not interested\" button next to Like that privately tells LinkedIn to show less like this — no one is notified."
     },
     {
       "title": "Relationship badge on posts",
-      "description": "Shows the connection degree (1st/2nd/3rd) and whether you follow each author."
+      "description": "Shows each author's connection degree (1st/2nd/3rd) and whether you follow them."
     },
     {
       "title": "Update notifications",
@@ -59,37 +84,61 @@
   "i18n": {
     "fr": {
       "tagline": "Des outils de productivité qui améliorent LinkedIn.",
-      "description": "LinkedIn Enhancer ajoute des outils concrets directement dans LinkedIn : il empêche le fil de se recharger quand vous changez d'onglet, masque les pubs et le superflu du fil, copie n'importe quel post et tout son fil de commentaires sous forme de prompt prêt pour l'IA, et affiche votre relation avec chaque auteur. Chaque outil est un simple interrupteur, rien n'est envoyé en ligne, et tous les réglages restent dans votre navigateur.",
-      "problem": "LinkedIn recharge votre fil dès que vous changez d'onglet, ce qui efface votre position de lecture et le commentaire que vous étiez en train d'écrire. Les posts sponsorisés, les incitations Premium de LinkedIn, les posts suggérés et les cartes 'personnes à suivre' repoussent les vraies actualités hors de vue. Et quand un post lance une bonne discussion en commentaires, il n'existe aucun moyen propre d'en extraire le texte pour l'analyser. Cette extension supprime ces frictions sur place.",
+      "description": "LinkedIn Enhancer ajoute des outils concrets directement dans LinkedIn : il empêche le fil de se recharger quand vous changez d'onglet, stoppe la lecture automatique des vidéos, masque les pubs et le superflu du fil (posts sponsorisés, suggestions, recommandations, changements de poste, module LinkedIn Actualités), copie n'importe quel post et tout son fil de commentaires sous forme de prompt prêt pour l'IA, peut archiver tout ce que vous faites défiler dans une base locale sur votre appareil, ajoute un bouton « Pas intéressé » en un clic, et affiche votre relation avec chaque auteur. Chaque outil est un simple interrupteur, rien n'est envoyé en ligne, et tous les réglages restent dans votre navigateur.",
+      "problem": "LinkedIn recharge votre fil dès que vous changez d'onglet, ce qui efface votre position de lecture et le commentaire que vous étiez en train d'écrire. Les vidéos démarrent toutes seules, tandis que les posts sponsorisés, les incitations Premium, les posts suggérés, les cartes « personnes à suivre », les changements de poste et le module Actualités repoussent les vraies actualités hors de vue. Et quand un post lance une bonne discussion, il n'existe aucun moyen propre d'en extraire le texte pour l'analyser. Cette extension supprime ces frictions sur place — en privé, tout restant sur votre appareil.",
       "highlights": [
         "Gardez votre position de lecture et votre brouillon en changeant d'onglet",
-        "Un bouton Copier transforme un post et ses commentaires en prompt IA",
-        "Déplie les longs fils de commentaires avant de copier, sans rien oublier",
-        "Masquez les posts sponsorisés et les incitations Premium de LinkedIn",
-        "Masquez les posts suggérés et les cartes 'personnes à suivre'",
-        "Voyez le degré de relation de chaque auteur et si vous le suivez",
+        "Stoppez la lecture automatique des vidéos du fil au défilement",
+        "Un clic transforme un post, son lien et ses commentaires en prompt IA",
+        "Archivez tout ce que vous faites défiler dans une base locale et privée",
+        "Masquez pubs, suggestions, recommandations, changements de poste et Actualités",
+        "Un bouton « Pas intéressé » pour affiner votre fil en privé, en un clic",
         "Aucune donnée ne quitte votre navigateur ; chaque outil s'active seul"
       ],
       "features": [
         {
           "title": "Stopper le rafraîchissement automatique du fil",
-          "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet."
+          "description": "Conserve votre position de défilement et votre brouillon de commentaire quand vous changez d'onglet puis revenez."
         },
         {
-          "title": "Copier les posts en prompt prêt pour un LLM",
-          "description": "Un clic copie un post et tout son fil de commentaires, formaté pour un LLM."
+          "title": "Stopper la lecture automatique des vidéos",
+          "description": "Les vidéos du fil ne démarrent plus seules au défilement ; elles ne se lancent qu'au clic."
+        },
+        {
+          "title": "Copier un post en prompt prêt pour un LLM",
+          "description": "Un clic copie un post, son vrai lien et tout son fil de commentaires, formaté pour un LLM. Le texte du prompt est entièrement personnalisable."
+        },
+        {
+          "title": "Archiver les posts que vous faites défiler",
+          "description": "Enregistre, en option, chaque post vu dans une base locale sur votre appareil, que vous pouvez prévisualiser et exporter en JSON, CSV ou XLS. Rien ne quitte votre navigateur."
         },
         {
           "title": "Masquer les pubs et posts sponsorisés",
-          "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un espace réservé."
+          "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un petit espace réservé."
         },
         {
-          "title": "Masquer suggestions et recommandations",
-          "description": "Supprime les posts suggérés et les cartes de recommandation de profils dans le fil."
+          "title": "Masquer les posts suggérés",
+          "description": "Remplace les cartes « Suggestions » du fil par un espace réservé (désactivé par défaut)."
+        },
+        {
+          "title": "Masquer les recommandations de profil",
+          "description": "Supprime les cartes « Recommandé pour vous » (personnes à suivre) du fil."
+        },
+        {
+          "title": "Masquer les changements de poste",
+          "description": "Supprime du fil les cartes d'occasion « a commencé un nouveau poste »."
+        },
+        {
+          "title": "Masquer LinkedIn Actualités",
+          "description": "Supprime le module « LinkedIn Actualités » de la colonne de droite et ses actualités à la une."
+        },
+        {
+          "title": "« Pas intéressé » en un clic",
+          "description": "Ajoute un bouton « Pas intéressé » à côté de « J'aime » qui indique en privé à LinkedIn d'afficher moins de contenu de ce type — personne n'est averti."
         },
         {
           "title": "Badge de relation sur les posts",
-          "description": "Affiche le degré de connexion (1er/2e/3e) et si vous suivez chaque auteur."
+          "description": "Affiche le degré de connexion (1er/2e/3e) de chaque auteur et si vous le suivez."
         },
         {
           "title": "Notifications de mise à jour",
@@ -99,45 +148,69 @@
     },
     "pt": {
       "tagline": "Ferramentas de produtividade que melhoram o LinkedIn.",
-      "description": "O LinkedIn Enhancer acrescenta ferramentas práticas dentro do próprio LinkedIn: impede que o feed se recarregue ao mudar de separador, oculta anúncios e ruído do feed, copia qualquer publicação e toda a sua árvore de comentários como um prompt pronto para IA, e mostra a sua relação com cada autor. Cada ferramenta é um simples botão de ligar/desligar, nada é enviado para a Internet, e todas as definições ficam no seu navegador.",
-      "problem": "O LinkedIn recarrega o feed assim que muda de separador, apagando a sua posição de leitura e o comentário que estava a escrever. Publicações patrocinadas, ofertas Premium do próprio LinkedIn, publicações sugeridas e cartões de 'pessoas a seguir' empurram as atualizações reais para fora do ecrã. E quando uma publicação gera uma boa discussão nos comentários, não há forma limpa de extrair o texto para o analisar. Esta extensão elimina essa fricção no momento.",
+      "description": "O LinkedIn Enhancer acrescenta ferramentas práticas dentro do próprio LinkedIn: impede que o feed se recarregue ao mudar de separador, impede a reprodução automática de vídeos, oculta anúncios e ruído do feed (publicações patrocinadas, sugestões, recomendações, cartões de mudança de emprego, módulo LinkedIn Notícias), copia qualquer publicação e toda a sua árvore de comentários como um prompt pronto para IA, pode arquivar tudo o que percorre numa base de dados local no seu dispositivo, adiciona um botão « Não tenho interesse » num clique, e mostra a sua relação com cada autor. Cada ferramenta é um simples botão de ligar/desligar, nada é enviado para a Internet, e todas as definições ficam no seu navegador.",
+      "problem": "O LinkedIn recarrega o feed assim que muda de separador, apagando a sua posição de leitura e o comentário que estava a escrever. Os vídeos começam sozinhos, enquanto publicações patrocinadas, ofertas Premium, publicações sugeridas, cartões de « pessoas a seguir », anúncios de mudança de emprego e o módulo de Notícias empurram as atualizações reais para fora do ecrã. E quando uma publicação gera uma boa discussão, não há forma limpa de extrair o texto para o analisar. Esta extensão elimina essa fricção no momento — de forma privada, com tudo a ficar no seu dispositivo.",
       "highlights": [
         "Mantenha a posição de leitura e o rascunho ao mudar de separador",
-        "Um botão Copiar transforma a publicação e os comentários num prompt de IA",
-        "Expande fios de comentários longos antes de copiar, sem deixar nada de fora",
-        "Oculte publicações patrocinadas e ofertas Premium do próprio LinkedIn",
-        "Oculte publicações sugeridas e cartões de 'pessoas a seguir'",
-        "Veja o grau de ligação de cada autor e se o segue",
+        "Pare a reprodução automática dos vídeos do feed ao percorrer",
+        "Um clique transforma a publicação, o seu link e os comentários num prompt de IA",
+        "Arquive tudo o que percorre numa base de dados local e privada",
+        "Oculte anúncios, sugestões, recomendações, mudanças de emprego e Notícias",
+        "Um botão « Não tenho interesse » para afinar o feed em privado, num clique",
         "Nenhum dado sai do navegador; cada ferramenta liga-se de forma independente"
       ],
       "features": [
         {
           "title": "Parar a atualização automática do feed",
-          "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador."
+          "description": "Mantém a sua posição de rolagem e o rascunho de comentário ao mudar de separador e voltar."
         },
         {
-          "title": "Copiar publicações como prompt pronto para um LLM",
-          "description": "Um clique copia uma publicação e toda a sua árvore de comentários, formatada para um LLM."
+          "title": "Parar a reprodução automática de vídeos",
+          "description": "Os vídeos do feed deixam de começar sozinhos ao percorrer; só são reproduzidos ao clicar."
+        },
+        {
+          "title": "Copiar uma publicação como prompt pronto para um LLM",
+          "description": "Um clique copia uma publicação, o seu link real e toda a sua árvore de comentários, formatado para um LLM. O texto do prompt é totalmente personalizável."
+        },
+        {
+          "title": "Arquivar as publicações que percorre",
+          "description": "Regista, opcionalmente, cada publicação vista numa base de dados local no seu dispositivo, que pode pré-visualizar e exportar em JSON, CSV ou XLS. Nada sai do navegador."
         },
         {
           "title": "Ocultar anúncios e publicações patrocinadas",
-          "description": "Substitui conteúdo patrocinado e promovido, e as ofertas Premium do LinkedIn, por um marcador."
+          "description": "Substitui o conteúdo patrocinado e promovido, bem como as ofertas Premium do próprio LinkedIn, por um pequeno espaço reservado."
         },
         {
-          "title": "Ocultar sugestões e recomendações",
-          "description": "Remove publicações sugeridas e cartões de recomendação de perfis no feed."
+          "title": "Ocultar publicações sugeridas",
+          "description": "Substitui os cartões « Sugestões » do feed por um espaço reservado (desativado por predefinição)."
+        },
+        {
+          "title": "Ocultar recomendações de perfil",
+          "description": "Remove os cartões « Recomendado para si » (pessoas a seguir) do feed."
+        },
+        {
+          "title": "Ocultar mudanças de emprego",
+          "description": "Remove do feed os cartões de ocasião « começou uma nova posição »."
+        },
+        {
+          "title": "Ocultar o LinkedIn Notícias",
+          "description": "Remove o módulo « LinkedIn Notícias » da coluna da direita e as suas notícias em destaque."
+        },
+        {
+          "title": "« Não tenho interesse » num clique",
+          "description": "Adiciona um botão « Não tenho interesse » ao lado de « Gosto » que diz de forma privada ao LinkedIn para mostrar menos conteúdo deste tipo — ninguém é notificado."
         },
         {
           "title": "Selo de relação nas publicações",
-          "description": "Mostra o grau de ligação (1.º/2.º/3.º) e se segue cada autor."
+          "description": "Mostra o grau de ligação (1.º/2.º/3.º) de cada autor e se o segue."
         },
         {
           "title": "Notificações de atualização",
-          "description": "Avisa quando uma nova versão é publicada para a descarregar e instalar."
+          "description": "Avisa-o quando uma nova versão é publicada para a transferir e instalar."
         }
       ]
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
-  "latestVersion": "0.15.0"
+  "latestVersion": "0.15.1"
 }
