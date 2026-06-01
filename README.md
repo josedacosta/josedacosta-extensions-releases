@@ -88,8 +88,8 @@ Keeping the source private isn't about hiding anything — there's nothing secre
 
 The build artifacts are provided as-is. The source code remains private.
 
-Made by **[José DA COSTA](https://github.com/josedacosta/)**
+Made by <a href="https://github.com/josedacosta/" target="_blank" rel="noopener"><b>José DA COSTA</b></a>
 
-[GitHub](https://github.com/josedacosta/) · [josedacosta.net](https://josedacosta.net) · [Portfolio](https://portfolio.josedacosta.net) · [Extensions](https://extensions.josedacosta.net)
+<a href="https://github.com/josedacosta/" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.josedacosta.net" target="_blank" rel="noopener">www.josedacosta.net</a> · <a href="https://portfolio.josedacosta.net" target="_blank" rel="noopener">Portfolio</a> · <a href="https://extensions.josedacosta.net" target="_blank" rel="noopener">Extensions</a>
 
 </div>
