@@ -79,9 +79,7 @@ Quick version: open the latest **[Release](https://github.com/josedacosta/joseda
 
 The source code of each extension is **private**. GitHub does not allow public releases on a private repository, so every private source repo publishes its builds **here** — one minimal, public landing page for all of them. The Git tree holds only per-extension metadata, so other sites can tell when a release ships; the actual `.zip` / `.xpi` builds live in the **Releases**.
 
-Keeping the source private isn't about hiding anything — there's nothing secret in it. It's that I'd rather not hand the work away for free. A lot of careful architecture and optimization went into these extensions, and with today's AI it would be trivial for someone to take that work and spin it into something else. I'd simply prefer that didn't happen.
-
-**Release naming** — tag `<slug>-v<semver>` · asset `<slug>-<version>-<browser>.zip` · checksums `SHA256SUMS.txt`. `<browser>` is one of `chrome`, `firefox`, `edge`, `brave`, `opera`.
+Keeping the source private isn't about hiding anything — there's nothing secret in it. It's that I'd rather not hand the work away for free. A lot of careful architecture and optimization went into these extensions, and with today's AI it would be trivial for someone to take that work and spin it into something else.
 
 </details>
 
@@ -90,6 +88,8 @@ Keeping the source private isn't about hiding anything — there's nothing secre
 
 The build artifacts are provided as-is. The source code remains private.
 
-Made by **[José DA COSTA](https://github.com/josedacosta/)** · [extensions.josedacosta.net](https://extensions.josedacosta.net)
+Made by **[José DA COSTA](https://github.com/josedacosta/)**
+
+[GitHub](https://github.com/josedacosta/) · [josedacosta.net](https://josedacosta.net) · [Portfolio](https://portfolio.josedacosta.net) · [Extensions](https://extensions.josedacosta.net)
 
 </div>
