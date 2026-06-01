@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧩 Browser Extensions by José DA COSTA
+# 🧩 Browser Extensions by José DA COSTA 🧩
 
 ### Public, ready-to-install builds of my browser extensions
 
@@ -64,7 +64,7 @@ These builds install in **developer mode** (or as a signed Firefox package), so 
 
 <div align="center">
 
-### 📖 [**Install guide → extensions.josedacosta.net/install**](https://extensions.josedacosta.net/en/install)
+### 📖 [**Install guide → extensions.josedacosta.net/install**](https://extensions.josedacosta.net/en/install) 📖
 
 </div>
 
