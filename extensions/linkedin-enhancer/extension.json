@@ -9,7 +9,7 @@
     "Stop feed videos from autoplaying as you scroll",
     "One-click Copy turns a post, its link and its comments into an AI prompt",
     "Archive everything you scroll past to a private, on-device database",
-    "Hide ads, suggestions, recommendations, job changes, job-search promos and LinkedIn News",
+    "Hide ads, suggestions, recommendations, job changes, job-search & Learning promos and LinkedIn News",
     "A \"Not interested\" button to tune your feed privately, in one click",
     "No data leaves your browser; every tool is an independent toggle"
   ],
@@ -92,7 +92,7 @@
         "Stoppez la lecture automatique des vidéos du fil au défilement",
         "Un clic transforme un post, son lien et ses commentaires en prompt IA",
         "Archivez tout ce que vous faites défiler dans une base locale et privée",
-        "Masquez pubs, suggestions, recommandations, changements de poste, promos d’emploi et Actualités",
+        "Masquez pubs, suggestions, recommandations, changements de poste, promos emploi & Learning et Actualités",
         "Un bouton « Pas intéressé » pour affiner votre fil en privé, en un clic",
         "Aucune donnée ne quitte votre navigateur ; chaque outil s'active seul"
       ],
@@ -156,7 +156,7 @@
         "Pare a reprodução automática dos vídeos do feed ao percorrer",
         "Um clique transforma a publicação, o seu link e os comentários num prompt de IA",
         "Arquive tudo o que percorre numa base de dados local e privada",
-        "Oculte anúncios, sugestões, recomendações, mudanças de emprego, promoções de emprego e Notícias",
+        "Oculte anúncios, sugestões, recomendações, mudanças de emprego, promoções de emprego & Learning e Notícias",
         "Um botão « Não tenho interesse » para afinar o feed em privado, num clique",
         "Nenhum dado sai do navegador; cada ferramenta liga-se de forma independente"
       ],
@@ -213,5 +213,5 @@
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
-  "latestVersion": "0.17.0"
+  "latestVersion": "0.18.0"
 }
