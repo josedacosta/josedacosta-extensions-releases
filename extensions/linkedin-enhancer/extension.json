@@ -2,7 +2,7 @@
   "slug": "linkedin-enhancer",
   "name": "LinkedIn Enhancer by José DA COSTA",
   "tagline": "Productivity tools that enhance LinkedIn.",
-  "description": "LinkedIn Enhancer adds practical productivity tools directly inside LinkedIn: it stops the feed from reloading when you switch tabs, stops feed videos from autoplaying, hides ads and feed clutter (sponsored posts, suggestions, recommendations, job-change cards, the LinkedIn News module), copies any post and its full comment thread as a ready-to-use AI prompt, can archive everything you scroll past to a private on-device database, adds a one-click \"Not interested\" button, and shows your relationship with each author. Every tool is a simple on/off toggle, nothing is uploaded, and all settings stay in your browser.",
+  "description": "LinkedIn Enhancer adds practical productivity tools directly inside LinkedIn: it stops the feed from reloading when you switch tabs, stops feed videos from autoplaying, hides ads and feed clutter (sponsored posts, suggestions, recommendations, job-change cards, the LinkedIn News module), copies any post and its full comment thread as a ready-to-use AI prompt, can archive everything you scroll past to a private on-device database, adds a one-click \"Not interested\" button. Every tool is a simple on/off toggle, nothing is uploaded, and all settings stay in your browser.",
   "problem": "LinkedIn reloads your feed the moment you switch tabs, wiping your scroll position and any comment you were drafting. Videos start on their own, while sponsored posts, Premium upsells, suggested posts, \"people to follow\" cards, job-change announcements and the News module push real updates out of view. And when a post sparks a good discussion, there is no clean way to pull the text out to think it through. This extension removes that friction in place — privately, with everything staying on your device.",
   "highlights": [
     "Keep your scroll position and draft comment when you switch tabs",
@@ -74,10 +74,6 @@
       "description": "Adds a \"Not interested\" button next to Like that privately tells LinkedIn to show less like this — no one is notified."
     },
     {
-      "title": "Relationship badge on posts",
-      "description": "Shows each author's connection degree (1st/2nd/3rd) and whether you follow them."
-    },
-    {
       "title": "Update notifications",
       "description": "Tells you when a new build is published so you can download and install it."
     }
@@ -85,7 +81,7 @@
   "i18n": {
     "fr": {
       "tagline": "Des outils de productivité qui améliorent LinkedIn.",
-      "description": "LinkedIn Enhancer ajoute des outils concrets directement dans LinkedIn : il empêche le fil de se recharger quand vous changez d'onglet, stoppe la lecture automatique des vidéos, masque les pubs et le superflu du fil (posts sponsorisés, suggestions, recommandations, changements de poste, module LinkedIn Actualités), copie n'importe quel post et tout son fil de commentaires sous forme de prompt prêt pour l'IA, peut archiver tout ce que vous faites défiler dans une base locale sur votre appareil, ajoute un bouton « Pas intéressé » en un clic, et affiche votre relation avec chaque auteur. Chaque outil est un simple interrupteur, rien n'est envoyé en ligne, et tous les réglages restent dans votre navigateur.",
+      "description": "LinkedIn Enhancer ajoute des outils concrets directement dans LinkedIn : il empêche le fil de se recharger quand vous changez d'onglet, stoppe la lecture automatique des vidéos, masque les pubs et le superflu du fil (posts sponsorisés, suggestions, recommandations, changements de poste, module LinkedIn Actualités), copie n'importe quel post et tout son fil de commentaires sous forme de prompt prêt pour l'IA, peut archiver tout ce que vous faites défiler dans une base locale sur votre appareil, ajoute un bouton « Pas intéressé » en un clic. Chaque outil est un simple interrupteur, rien n'est envoyé en ligne, et tous les réglages restent dans votre navigateur.",
       "problem": "LinkedIn recharge votre fil dès que vous changez d'onglet, ce qui efface votre position de lecture et le commentaire que vous étiez en train d'écrire. Les vidéos démarrent toutes seules, tandis que les posts sponsorisés, les incitations Premium, les posts suggérés, les cartes « personnes à suivre », les changements de poste et le module Actualités repoussent les vraies actualités hors de vue. Et quand un post lance une bonne discussion, il n'existe aucun moyen propre d'en extraire le texte pour l'analyser. Cette extension supprime ces frictions sur place — en privé, tout restant sur votre appareil.",
       "highlights": [
         "Gardez votre position de lecture et votre brouillon en changeant d'onglet",
@@ -138,10 +134,6 @@
           "description": "Ajoute un bouton « Pas intéressé » à côté de « J'aime » qui indique en privé à LinkedIn d'afficher moins de contenu de ce type — personne n'est averti."
         },
         {
-          "title": "Badge de relation sur les posts",
-          "description": "Affiche le degré de connexion (1er/2e/3e) de chaque auteur et si vous le suivez."
-        },
-        {
           "title": "Notifications de mise à jour",
           "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer."
         }
@@ -149,7 +141,7 @@
     },
     "pt": {
       "tagline": "Ferramentas de produtividade que melhoram o LinkedIn.",
-      "description": "O LinkedIn Enhancer acrescenta ferramentas práticas dentro do próprio LinkedIn: impede que o feed se recarregue ao mudar de separador, impede a reprodução automática de vídeos, oculta anúncios e ruído do feed (publicações patrocinadas, sugestões, recomendações, cartões de mudança de emprego, módulo LinkedIn Notícias), copia qualquer publicação e toda a sua árvore de comentários como um prompt pronto para IA, pode arquivar tudo o que percorre numa base de dados local no seu dispositivo, adiciona um botão « Não tenho interesse » num clique, e mostra a sua relação com cada autor. Cada ferramenta é um simples botão de ligar/desligar, nada é enviado para a Internet, e todas as definições ficam no seu navegador.",
+      "description": "O LinkedIn Enhancer acrescenta ferramentas práticas dentro do próprio LinkedIn: impede que o feed se recarregue ao mudar de separador, impede a reprodução automática de vídeos, oculta anúncios e ruído do feed (publicações patrocinadas, sugestões, recomendações, cartões de mudança de emprego, módulo LinkedIn Notícias), copia qualquer publicação e toda a sua árvore de comentários como um prompt pronto para IA, pode arquivar tudo o que percorre numa base de dados local no seu dispositivo, adiciona um botão « Não tenho interesse » num clique. Cada ferramenta é um simples botão de ligar/desligar, nada é enviado para a Internet, e todas as definições ficam no seu navegador.",
       "problem": "O LinkedIn recarrega o feed assim que muda de separador, apagando a sua posição de leitura e o comentário que estava a escrever. Os vídeos começam sozinhos, enquanto publicações patrocinadas, ofertas Premium, publicações sugeridas, cartões de « pessoas a seguir », anúncios de mudança de emprego e o módulo de Notícias empurram as atualizações reais para fora do ecrã. E quando uma publicação gera uma boa discussão, não há forma limpa de extrair o texto para o analisar. Esta extensão elimina essa fricção no momento — de forma privada, com tudo a ficar no seu dispositivo.",
       "highlights": [
         "Mantenha a posição de leitura e o rascunho ao mudar de separador",
@@ -202,10 +194,6 @@
           "description": "Adiciona um botão « Não tenho interesse » ao lado de « Gosto » que diz de forma privada ao LinkedIn para mostrar menos conteúdo deste tipo — ninguém é notificado."
         },
         {
-          "title": "Selo de relação nas publicações",
-          "description": "Mostra o grau de ligação (1.º/2.º/3.º) de cada autor e se o segue."
-        },
-        {
           "title": "Notificações de atualização",
           "description": "Avisa-o quando uma nova versão é publicada para a transferir e instalar."
         }
@@ -213,5 +201,5 @@
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
-  "latestVersion": "0.18.0"
+  "latestVersion": "0.19.0"
 }
