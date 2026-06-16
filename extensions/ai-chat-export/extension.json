@@ -33,20 +33,28 @@
   ],
   "features": [
     {
-      "title": "Export to Markdown",
-      "description": "Saves the full conversation as a clean, readable Markdown file."
+      "title": "Structure-preserving Markdown",
+      "description": "Headers, nested lists, code blocks, and tables come out as clean Markdown instead of flattened text."
     },
     {
-      "title": "Links preserved",
-      "description": "Keeps every source link and citation intact in the export."
+      "title": "Dynamic link capture",
+      "description": "Reads links from the live page and recovers the JavaScript-rendered URLs and citations that copy-paste drops."
     },
     {
-      "title": "Multi-platform",
-      "description": "Works on ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral."
+      "title": "Deep Research export",
+      "description": "Pulls the full source list, tables, and charts from ChatGPT and Gemini Deep Research panels you cannot select by hand."
     },
     {
-      "title": "One-click download",
-      "description": "Grabs the current conversation straight from the page, no copy-paste."
+      "title": "Six supported assistants",
+      "description": "One workflow across ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral."
+    },
+    {
+      "title": "Output that fits your workflow",
+      "description": "Copy to the clipboard, download a single file, split each exchange, or bundle everything into a ZIP."
+    },
+    {
+      "title": "Citation and metadata control",
+      "description": "Inline links or numbered footnotes, duplicate URLs removed, plus optional YAML front matter for Obsidian."
     }
   ],
   "i18n": {
@@ -65,20 +73,28 @@
       ],
       "features": [
         {
-          "title": "Export en Markdown",
-          "description": "Enregistre toute la conversation dans un fichier Markdown propre et lisible."
+          "title": "Markdown qui garde la structure",
+          "description": "Titres, listes imbriquées, blocs de code et tableaux ressortent en Markdown propre, pas en texte aplati."
         },
         {
-          "title": "Liens conservés",
-          "description": "Garde intacts chaque lien source et citation dans l'export."
+          "title": "Capture des liens dynamiques",
+          "description": "Lit les liens sur la page elle-même et récupère les URL et citations générées en JavaScript que le copier-coller perd."
         },
         {
-          "title": "Multi-plateforme",
-          "description": "Fonctionne avec ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral."
+          "title": "Export de la recherche approfondie",
+          "description": "Récupère la liste des sources, les tableaux et les graphiques des panneaux Deep Research de ChatGPT et Gemini, impossibles à sélectionner à la main."
         },
         {
-          "title": "Téléchargement en un clic",
-          "description": "Récupère la conversation directement depuis la page, sans copier-coller."
+          "title": "Six assistants pris en charge",
+          "description": "Un seul flux pour ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral."
+        },
+        {
+          "title": "Une sortie adaptée à votre méthode",
+          "description": "Copiez dans le presse-papiers, téléchargez un fichier, séparez chaque échange ou regroupez le tout dans un ZIP."
+        },
+        {
+          "title": "Maîtrise des citations et métadonnées",
+          "description": "Liens inline ou notes numérotées, URL en double supprimées, et en-tête YAML optionnel pour Obsidian."
         }
       ]
     },
@@ -97,20 +113,28 @@
       ],
       "features": [
         {
-          "title": "Exportar para Markdown",
-          "description": "Guarda toda a conversa num ficheiro Markdown limpo e legível."
+          "title": "Markdown que mantém a estrutura",
+          "description": "Títulos, listas aninhadas, blocos de código e tabelas saem em Markdown limpo, não em texto achatado."
         },
         {
-          "title": "Links preservados",
-          "description": "Mantém intactos todos os links de origem e citações na exportação."
+          "title": "Captura de links dinâmicos",
+          "description": "Lê os links na própria página e recupera os URL e citações gerados em JavaScript que o copiar-colar perde."
         },
         {
-          "title": "Multi-plataforma",
-          "description": "Funciona no ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral."
+          "title": "Exportação da pesquisa aprofundada",
+          "description": "Recolhe a lista de fontes, as tabelas e os gráficos dos painéis Deep Research do ChatGPT e do Gemini, impossíveis de selecionar à mão."
         },
         {
-          "title": "Descarregar com um clique",
-          "description": "Obtém a conversa diretamente da página, sem copiar e colar."
+          "title": "Seis assistentes suportados",
+          "description": "Um único fluxo para ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral."
+        },
+        {
+          "title": "Uma saída à medida do seu método",
+          "description": "Copie para a área de transferência, transfira um ficheiro, separe cada troca ou agrupe tudo num ZIP."
+        },
+        {
+          "title": "Controlo de citações e metadados",
+          "description": "Links inline ou notas numeradas, URL duplicados removidos, e front matter YAML opcional para o Obsidian."
         }
       ]
     }
