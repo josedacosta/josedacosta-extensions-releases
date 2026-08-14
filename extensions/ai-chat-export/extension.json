@@ -2,10 +2,10 @@
   "slug": "ai-chat-export",
   "name": "AI Chat Export by José DA COSTA",
   "tagline": "Export AI conversations to Markdown with all links preserved.",
-  "description": "AI Chat Export turns your ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral conversations into clean Markdown files. It reads the conversation straight from the page, so links, citations, code blocks, tables, and research panels survive the export instead of being lost. Copy to clipboard, download a file, or split each exchange into its own file - all processed locally in your browser.",
+  "description": "AI Chat Export turns your ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi, and Z.ai conversations into clean Markdown files. It reads the conversation straight from the page, so links, citations, code blocks, tables, and research panels survive the export instead of being lost. Copy to clipboard, download a file, or split each exchange into its own file - all processed locally in your browser.",
   "problem": "Copy-paste and the built-in export buttons quietly drop the parts you actually want to keep. JavaScript-rendered links and citation URLs disappear, Deep Research panels cannot be selected, and headers, code blocks, and tables collapse into flat text. You end up rebuilding the conversation by hand, or saving something you cannot trust as a record.",
   "highlights": [
-    "Works with ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral",
+    "Works with ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi, and Z.ai",
     "Keeps links and citation URLs that copy-paste strips out",
     "Exports Deep Research sources, code blocks, tables, and charts",
     "Citations as inline links or numbered footnotes, duplicates removed",
@@ -45,8 +45,8 @@
       "description": "Pulls the full source list, tables, and charts from ChatGPT and Gemini Deep Research panels you cannot select by hand."
     },
     {
-      "title": "Six supported assistants",
-      "description": "One workflow across ChatGPT, Gemini, Claude, Perplexity, Grok, and Mistral."
+      "title": "Eight supported assistants",
+      "description": "One workflow across ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi, and Z.ai."
     },
     {
       "title": "Output that fits your workflow",
@@ -60,10 +60,10 @@
   "i18n": {
     "fr": {
       "tagline": "Exportez vos conversations IA en Markdown, tous les liens conservés.",
-      "description": "AI Chat Export transforme vos conversations ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral en fichiers Markdown propres. L'extension lit la conversation directement sur la page : les liens, citations, blocs de code, tableaux et panneaux de recherche sont conservés au lieu d'être perdus. Copiez dans le presse-papiers, téléchargez un fichier ou séparez chaque échange dans son propre fichier - tout est traité localement dans votre navigateur.",
+      "description": "AI Chat Export transforme vos conversations ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi et Z.ai en fichiers Markdown propres. L'extension lit la conversation directement sur la page : les liens, citations, blocs de code, tableaux et panneaux de recherche sont conservés au lieu d'être perdus. Copiez dans le presse-papiers, téléchargez un fichier ou séparez chaque échange dans son propre fichier - tout est traité localement dans votre navigateur.",
       "problem": "Le copier-coller et les boutons d'export intégrés laissent tomber, sans prévenir, ce que vous vouliez garder. Les liens générés en JavaScript et les URL des citations disparaissent, les panneaux de recherche approfondie ne peuvent pas être sélectionnés, et les titres, blocs de code et tableaux deviennent du texte plat. Vous finissez par reconstruire la conversation à la main, ou par sauvegarder une trace peu fiable.",
       "highlights": [
-        "Compatible avec ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral",
+        "Compatible avec ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi et Z.ai",
         "Conserve les liens et URL de citations que le copier-coller supprime",
         "Exporte les sources de recherche, blocs de code, tableaux et graphiques",
         "Citations en liens inline ou notes numérotées, sans doublons",
@@ -85,8 +85,8 @@
           "description": "Récupère la liste des sources, les tableaux et les graphiques des panneaux Deep Research de ChatGPT et Gemini, impossibles à sélectionner à la main."
         },
         {
-          "title": "Six assistants pris en charge",
-          "description": "Un seul flux pour ChatGPT, Gemini, Claude, Perplexity, Grok et Mistral."
+          "title": "Huit assistants pris en charge",
+          "description": "Un seul flux pour ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi et Z.ai."
         },
         {
           "title": "Une sortie adaptée à votre méthode",
@@ -100,10 +100,10 @@
     },
     "pt": {
       "tagline": "Exporte conversas de IA para Markdown com todos os links preservados.",
-      "description": "O AI Chat Export converte as suas conversas no ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral em ficheiros Markdown limpos. A extensão lê a conversa diretamente da página, por isso os links, citações, blocos de código, tabelas e painéis de pesquisa sobrevivem à exportação em vez de se perderem. Copie para a área de transferência, transfira um ficheiro ou separe cada troca no seu próprio ficheiro - tudo processado localmente no seu navegador.",
+      "description": "O AI Chat Export converte as suas conversas no ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi e Z.ai em ficheiros Markdown limpos. A extensão lê a conversa diretamente da página, por isso os links, citações, blocos de código, tabelas e painéis de pesquisa sobrevivem à exportação em vez de se perderem. Copie para a área de transferência, transfira um ficheiro ou separe cada troca no seu próprio ficheiro - tudo processado localmente no seu navegador.",
       "problem": "O copiar-colar e os botões de exportação integrados deixam cair, sem aviso, aquilo que queria guardar. Os links gerados em JavaScript e os URL das citações desaparecem, os painéis de pesquisa aprofundada não podem ser selecionados, e os títulos, blocos de código e tabelas viram texto simples. Acaba por reconstruir a conversa à mão, ou por guardar um registo em que não pode confiar.",
       "highlights": [
-        "Funciona com ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral",
+        "Funciona com ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi e Z.ai",
         "Mantém os links e URL de citações que o copiar-colar remove",
         "Exporta fontes de pesquisa, blocos de código, tabelas e gráficos",
         "Citações como links inline ou notas numeradas, sem duplicados",
@@ -125,8 +125,8 @@
           "description": "Recolhe a lista de fontes, as tabelas e os gráficos dos painéis Deep Research do ChatGPT e do Gemini, impossíveis de selecionar à mão."
         },
         {
-          "title": "Seis assistentes suportados",
-          "description": "Um único fluxo para ChatGPT, Gemini, Claude, Perplexity, Grok e Mistral."
+          "title": "Oito assistentes suportados",
+          "description": "Um único fluxo para ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi e Z.ai."
         },
         {
           "title": "Uma saída à medida do seu método",
@@ -140,5 +140,5 @@
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/ai-chat-export",
-  "latestVersion": "1.31.6"
+  "latestVersion": "1.32.0"
 }
