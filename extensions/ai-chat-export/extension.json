@@ -45,6 +45,10 @@
       "description": "Pulls the full source list, tables, and charts from ChatGPT and Gemini Deep Research panels you cannot select by hand."
     },
     {
+      "title": "Artifacts exported with the conversation",
+      "description": "Claude artifacts — including the interactive pages published from Cowork sessions — are saved as standalone source files next to the Markdown, with the same base name."
+    },
+    {
       "title": "Eight supported assistants",
       "description": "One workflow across ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi, and Z.ai."
     },
@@ -83,6 +87,10 @@
         {
           "title": "Export de la recherche approfondie",
           "description": "Récupère la liste des sources, les tableaux et les graphiques des panneaux Deep Research de ChatGPT et Gemini, impossibles à sélectionner à la main."
+        },
+        {
+          "title": "Les artefacts exportés avec la conversation",
+          "description": "Les artefacts Claude — y compris les pages interactives publiées depuis une session Cowork — sont enregistrés en fichiers source autonomes à côté du Markdown, avec le même nom de base."
         },
         {
           "title": "Huit assistants pris en charge",
@@ -125,6 +133,10 @@
           "description": "Recolhe a lista de fontes, as tabelas e os gráficos dos painéis Deep Research do ChatGPT e do Gemini, impossíveis de selecionar à mão."
         },
         {
+          "title": "Artefactos exportados com a conversa",
+          "description": "Os artefactos do Claude — incluindo as páginas interativas publicadas a partir de sessões Cowork — são guardados como ficheiros de código autónomos ao lado do Markdown, com o mesmo nome base."
+        },
+        {
           "title": "Oito assistentes suportados",
           "description": "Um único fluxo para ChatGPT, Gemini, Claude, Perplexity, Grok, Mistral, Kimi e Z.ai."
         },
@@ -140,5 +152,5 @@
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/ai-chat-export",
-  "latestVersion": "1.32.0"
+  "latestVersion": "1.33.0"
 }
