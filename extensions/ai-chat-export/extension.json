@@ -61,6 +61,21 @@
       "description": "Inline links or numbered footnotes, duplicate URLs removed, plus optional YAML front matter for Obsidian."
     }
   ],
+  "security": {
+    "summary": "The extension reads the conversation already open in front of you, turns it into a file, and stops there. There is no account, no server of ours, and nothing about you is collected.",
+    "points": [
+      "Your conversations are processed inside your browser and never leave it.",
+      "No tracking, no analytics, no identifier: we cannot know who installed the extension, nor when it is used.",
+      "It never asks for permission to read your cookies or your sign-in session.",
+      "It only runs on the AI chat sites it supports, and stays inactive everywhere else.",
+      "Exports go straight to your clipboard or your Downloads folder — nowhere else.",
+      "Only your own settings are stored, in your browser. No conversation is ever kept.",
+      "The single request it makes on its own is an anonymous version check against a public file.",
+      "Errors are recorded locally, without any conversation content, and you alone decide whether to share them."
+    ],
+    "sourceNote": "The source code is private rather than open source. Reliably reading a conversation on each of these sites took hundreds of hours of work, and every one of them changes regularly. Publishing that work would mostly serve those who would repackage it or use it against the platforms, so the code stays private and protected."
+  },
+  "icon": "icon.png",
   "i18n": {
     "fr": {
       "tagline": "Exportez vos conversations IA en Markdown, tous les liens conservés.",
@@ -104,7 +119,21 @@
           "title": "Maîtrise des citations et métadonnées",
           "description": "Liens inline ou notes numérotées, URL en double supprimées, et en-tête YAML optionnel pour Obsidian."
         }
-      ]
+      ],
+      "security": {
+        "summary": "L'extension lit la conversation déjà ouverte devant vous, la transforme en fichier, et s'arrête là. Aucun compte, aucun serveur de notre côté, et rien vous concernant n'est collecté.",
+        "points": [
+          "Vos conversations sont traitées dans votre navigateur et n'en sortent jamais.",
+          "Aucun traçage, aucune analytique, aucun identifiant : nous ne pouvons pas savoir qui a installé l'extension, ni quand elle est utilisée.",
+          "Elle ne demande jamais l'autorisation de lire vos cookies ni votre session connectée.",
+          "Elle ne s'active que sur les sites d'IA pris en charge, et reste inerte partout ailleurs.",
+          "Vos exports partent directement dans votre presse-papiers ou votre dossier Téléchargements — nulle part ailleurs.",
+          "Seuls vos réglages sont enregistrés, dans votre navigateur. Aucune conversation n'est conservée.",
+          "La seule requête qu'elle émet d'elle-même est une vérification de version anonyme sur un fichier public.",
+          "Les erreurs sont notées localement, sans aucun contenu de conversation, et vous seul décidez de les partager."
+        ],
+        "sourceNote": "Le code source est privé plutôt qu'open source. Lire fidèlement une conversation sur chacun de ces sites a demandé des centaines d'heures de travail, et chacun d'eux évolue régulièrement. Publier ce travail servirait surtout ceux qui le repackageraient ou s'en serviraient contre les plateformes : le code reste donc privé et protégé."
+      }
     },
     "pt": {
       "tagline": "Exporte conversas de IA para Markdown com todos os links preservados.",
@@ -148,7 +177,21 @@
           "title": "Controlo de citações e metadados",
           "description": "Links inline ou notas numeradas, URL duplicados removidos, e front matter YAML opcional para o Obsidian."
         }
-      ]
+      ],
+      "security": {
+        "summary": "A extensão lê a conversa já aberta à sua frente, transforma-a num ficheiro, e fica por aí. Não há conta, não há servidor do nosso lado, e nada sobre si é recolhido.",
+        "points": [
+          "As suas conversas são tratadas dentro do navegador e nunca saem dele.",
+          "Sem rastreio, sem analítica, sem identificador: não podemos saber quem instalou a extensão, nem quando é usada.",
+          "Nunca pede autorização para ler os seus cookies nem a sua sessão iniciada.",
+          "Só funciona nos sites de IA suportados, e fica inativa em todos os outros.",
+          "As exportações vão diretamente para a área de transferência ou para a pasta Transferências — e para mais lado nenhum.",
+          "Apenas as suas definições são guardadas, no seu navegador. Nenhuma conversa é conservada.",
+          "O único pedido que faz por iniciativa própria é uma verificação de versão anónima num ficheiro público.",
+          "Os erros são registados localmente, sem qualquer conteúdo de conversa, e só você decide se os partilha."
+        ],
+        "sourceNote": "O código-fonte é privado em vez de open source. Ler fielmente uma conversa em cada um destes sites exigiu centenas de horas de trabalho, e todos eles mudam com regularidade. Publicar esse trabalho serviria sobretudo quem o reempacotasse ou o usasse contra as plataformas: por isso o código permanece privado e protegido."
+      }
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/ai-chat-export",
