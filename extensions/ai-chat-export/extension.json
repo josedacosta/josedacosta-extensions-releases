@@ -70,7 +70,7 @@
       "It only runs on the AI chat sites it supports, and stays inactive everywhere else.",
       "Exports go straight to your clipboard or your Downloads folder — nowhere else.",
       "Only your own settings are stored, in your browser. No conversation is ever kept.",
-      "The single request it makes on its own is an anonymous version check against a public file.",
+      "The only outbound request is an anonymous HTTP version check against a public URL, there to tell you an update exists — which you install yourself.",
       "Errors are recorded locally, without any conversation content, and you alone decide whether to share them."
     ],
     "sourceNote": "The source code is private rather than open source. Reliably reading a conversation on each of these sites took hundreds of hours of work, and every one of them changes regularly. Publishing that work would mostly serve those who would repackage it or use it against the platforms, so the code stays private and protected."
@@ -129,7 +129,7 @@
           "Elle ne s'active que sur les sites d'IA pris en charge, et reste inerte partout ailleurs.",
           "Vos exports partent directement dans votre presse-papiers ou votre dossier Téléchargements — nulle part ailleurs.",
           "Seuls vos réglages sont enregistrés, dans votre navigateur. Aucune conversation n'est conservée.",
-          "La seule requête qu'elle émet d'elle-même est une vérification de version anonyme sur un fichier public.",
+          "La seule requête émise vers l'extérieur est une requête HTTP anonyme de vérification du numéro de version, sur une URL publique, destinée à vous avertir qu'une mise à jour existe — à installer manuellement.",
           "Les erreurs sont notées localement, sans aucun contenu de conversation, et vous seul décidez de les partager."
         ],
         "sourceNote": "Le code source est privé plutôt qu'open source. Lire fidèlement une conversation sur chacun de ces sites a demandé des centaines d'heures de travail, et chacun d'eux évolue régulièrement. Publier ce travail servirait surtout ceux qui le repackageraient ou s'en serviraient contre les plateformes : le code reste donc privé et protégé."
@@ -187,7 +187,7 @@
           "Só funciona nos sites de IA suportados, e fica inativa em todos os outros.",
           "As exportações vão diretamente para a área de transferência ou para a pasta Transferências — e para mais lado nenhum.",
           "Apenas as suas definições são guardadas, no seu navegador. Nenhuma conversa é conservada.",
-          "O único pedido que faz por iniciativa própria é uma verificação de versão anónima num ficheiro público.",
+          "O único pedido enviado para o exterior é um pedido HTTP anónimo de verificação do número da versão, numa URL pública, destinado a avisá-lo de que existe uma atualização — a instalar manualmente.",
           "Os erros são registados localmente, sem qualquer conteúdo de conversa, e só você decide se os partilha."
         ],
         "sourceNote": "O código-fonte é privado em vez de open source. Ler fielmente uma conversa em cada um destes sites exigiu centenas de horas de trabalho, e todos eles mudam com regularidade. Publicar esse trabalho serviria sobretudo quem o reempacotasse ou o usasse contra as plataformas: por isso o código permanece privado e protegido."
