@@ -54,6 +54,18 @@
       "description": "Replaces sponsored and promoted content, plus LinkedIn's own Premium upsells, with a small placeholder."
     },
     {
+      "title": "Hide the Premium upsell card",
+      "description": "Removes the in-feed \"Try Premium for €0\" Launchpad card pushing a LinkedIn Premium trial."
+    },
+    {
+      "title": "Hide the recruiter prompt card",
+      "description": "Removes the in-feed \"Are you hiring?\" Launchpad card with its \"Yes, I'm hiring\" / \"Not right now\" buttons."
+    },
+    {
+      "title": "Hide in-feed promo cards",
+      "description": "Removes LinkedIn's own in-feed promotional cards (e.g. \"Try LinkedIn Ads\"), shown mainly on company pages."
+    },
+    {
       "title": "Hide suggested posts",
       "description": "Replaces \"Suggestions\" cards in the feed with a placeholder (off by default)."
     },
@@ -112,6 +124,18 @@
         {
           "title": "Masquer les pubs et posts sponsorisés",
           "description": "Remplace le contenu sponsorisé et promu, ainsi que les incitations Premium de LinkedIn, par un petit espace réservé."
+        },
+        {
+          "title": "Masquer la carte d'incitation Premium",
+          "description": "Retire la carte Launchpad « Essayez Premium pour 0 € » qui pousse un essai LinkedIn Premium dans le fil."
+        },
+        {
+          "title": "Masquer la carte « Recrutez-vous ? »",
+          "description": "Retire la carte Launchpad « Recrutez-vous ? » et ses boutons « Oui, je recrute » / « Non, pas pour le moment »."
+        },
+        {
+          "title": "Masquer les cartes promo du fil",
+          "description": "Retire les cartes promotionnelles de LinkedIn dans le fil (ex. « Essayez LinkedIn Ads »), surtout sur les pages entreprise."
         },
         {
           "title": "Masquer les posts suggérés",
@@ -174,6 +198,18 @@
           "description": "Substitui o conteúdo patrocinado e promovido, bem como as ofertas Premium do próprio LinkedIn, por um pequeno espaço reservado."
         },
         {
+          "title": "Ocultar o cartão de promoção Premium",
+          "description": "Remove o cartão Launchpad « Experimente o Premium por 0 € » que promove um período de teste do LinkedIn Premium no feed."
+        },
+        {
+          "title": "Ocultar o cartão « Está a recrutar? »",
+          "description": "Remove o cartão Launchpad « Está a recrutar? » e os seus botões « Sim, estou a recrutar » / « Agora não »."
+        },
+        {
+          "title": "Ocultar cartões promocionais no feed",
+          "description": "Remove os cartões promocionais do próprio LinkedIn no feed (por exemplo « Experimente o LinkedIn Ads »), sobretudo nas páginas de empresa."
+        },
+        {
           "title": "Ocultar publicações sugeridas",
           "description": "Substitui os cartões « Sugestões » do feed por um espaço reservado (desativado por predefinição)."
         },
@@ -201,5 +237,5 @@
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
-  "latestVersion": "0.19.1"
+  "latestVersion": "0.22.2"
 }
