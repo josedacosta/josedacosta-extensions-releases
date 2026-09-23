@@ -55,11 +55,11 @@
     },
     {
       "title": "Hide the Premium upsell card",
-      "description": "Removes the in-feed \"Try Premium for €0\" Launchpad card pushing a LinkedIn Premium trial."
+      "description": "Removes the in-feed \"Try Premium for €0\" card pushing a LinkedIn Premium trial."
     },
     {
       "title": "Hide the recruiter prompt card",
-      "description": "Removes the in-feed \"Are you hiring?\" Launchpad card with its \"Yes, I'm hiring\" / \"Not right now\" buttons."
+      "description": "Removes the in-feed \"Are you hiring?\" card with its \"Yes, I'm hiring\" / \"Not right now\" buttons."
     },
     {
       "title": "Hide in-feed promo cards",
@@ -142,11 +142,11 @@
         },
         {
           "title": "Masquer la carte d'incitation Premium",
-          "description": "Retire la carte Launchpad « Essayez Premium pour 0 € » qui pousse un essai LinkedIn Premium dans le fil."
+          "description": "Retire la carte « Essayez Premium pour 0 € » qui pousse un essai LinkedIn Premium dans le fil."
         },
         {
           "title": "Masquer la carte « Recrutez-vous ? »",
-          "description": "Retire la carte Launchpad « Recrutez-vous ? » et ses boutons « Oui, je recrute » / « Non, pas pour le moment »."
+          "description": "Retire la carte « Recrutez-vous ? » et ses boutons « Oui, je recrute » / « Non, pas pour le moment »."
         },
         {
           "title": "Masquer les cartes promo du fil",
@@ -228,11 +228,11 @@
         },
         {
           "title": "Ocultar o cartão de promoção Premium",
-          "description": "Remove o cartão Launchpad « Experimente o Premium por 0 € » que promove um período de teste do LinkedIn Premium no feed."
+          "description": "Remove o cartão « Experimente o Premium por 0 € » que promove um período de teste do LinkedIn Premium no feed."
         },
         {
           "title": "Ocultar o cartão « Está a recrutar? »",
-          "description": "Remove o cartão Launchpad « Está a recrutar? » e os seus botões « Sim, estou a recrutar » / « Agora não »."
+          "description": "Remove o cartão « Está a recrutar? » e os seus botões « Sim, estou a recrutar » / « Agora não »."
         },
         {
           "title": "Ocultar cartões promocionais no feed",
