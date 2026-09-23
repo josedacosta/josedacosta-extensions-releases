@@ -90,6 +90,21 @@
       "description": "Tells you when a new build is published so you can download and install it."
     }
   ],
+  "security": {
+    "summary": "LinkedIn Enhancer works on the LinkedIn page already open in your browser and nowhere else. There is no account, no server of ours, and nothing about you or the posts you read is collected.",
+    "points": [
+      "Everything runs inside your browser: the posts you see, hide, copy or archive are never sent to us or to anyone else.",
+      "No tracking, no analytics, no identifier: we have no way of knowing who uses the extension, or how.",
+      "It never asks to read your cookies or your LinkedIn session, and never calls LinkedIn behind your back — it only presses the same buttons you would.",
+      "It is active on linkedin.com only and stays completely inert on every other site.",
+      "The post archive lives on your device alone; you can export it or erase it from the settings at any time.",
+      "The clipboard is read for one purpose: picking up the post link LinkedIn itself copies there, when you press Copy or turn on link archiving.",
+      "The only outbound request is an anonymous version check against a public file, so you know an update exists. You can switch it off, and the extension is then fully offline.",
+      "Errors stay in your browser's console. Nothing is reported anywhere."
+    ],
+    "sourceNote": "The source code is private by choice. LinkedIn reshapes its interface constantly, and the techniques that keep each tool reliable are the result of long, patient work. Publishing them would hand a ready-made toolkit to people who build scrapers and data-harvesting tools — the opposite of what this extension stands for."
+  },
+  "icon": "icon.png",
   "i18n": {
     "fr": {
       "tagline": "Des outils de productivité qui améliorent LinkedIn.",
@@ -161,7 +176,21 @@
           "title": "Notifications de mise à jour",
           "description": "Vous prévient quand une nouvelle version est publiée pour la télécharger et l'installer."
         }
-      ]
+      ],
+      "security": {
+        "summary": "LinkedIn Enhancer agit sur la page LinkedIn déjà ouverte dans votre navigateur, et nulle part ailleurs. Aucun compte, aucun serveur de notre côté, et rien ne vous concernant — ni les posts que vous lisez — n'est collecté.",
+        "points": [
+          "Tout se passe dans votre navigateur : les posts que vous voyez, masquez, copiez ou archivez ne sont jamais envoyés, ni à nous ni à personne.",
+          "Aucun traçage, aucune analytique, aucun identifiant : nous n'avons aucun moyen de savoir qui utilise l'extension, ni comment.",
+          "Elle ne demande jamais à lire vos cookies ni votre session LinkedIn, et n'interroge jamais LinkedIn dans votre dos : elle appuie seulement sur les boutons que vous auriez pressés vous-même.",
+          "Elle n'est active que sur linkedin.com et reste totalement inerte sur tous les autres sites.",
+          "L'archive des posts reste uniquement sur votre appareil ; vous pouvez l'exporter ou l'effacer à tout moment depuis les réglages.",
+          "Le presse-papiers n'est lu que dans un seul but : récupérer le lien du post que LinkedIn y copie lui-même, quand vous cliquez sur Copier ou activez l'archivage des liens.",
+          "La seule requête vers l'extérieur est une vérification anonyme du numéro de version sur un fichier public, pour vous signaler une mise à jour. Vous pouvez la désactiver : l'extension devient alors entièrement hors ligne.",
+          "Les erreurs restent dans la console de votre navigateur. Rien n'est remonté nulle part."
+        ],
+        "sourceNote": "Le code source est privé par choix. LinkedIn remanie son interface en permanence, et les techniques qui gardent chaque outil fiable sont le fruit d'un long travail patient. Les publier reviendrait à offrir une boîte à outils toute prête à ceux qui fabriquent des scrapers et des outils d'aspiration de données — l'inverse de ce que défend cette extension."
+      }
     },
     "pt": {
       "tagline": "Ferramentas de produtividade que melhoram o LinkedIn.",
@@ -233,7 +262,21 @@
           "title": "Notificações de atualização",
           "description": "Avisa-o quando uma nova versão é publicada para a transferir e instalar."
         }
-      ]
+      ],
+      "security": {
+        "summary": "O LinkedIn Enhancer atua na página do LinkedIn que já está aberta no seu navegador, e em mais nenhum lugar. Não há conta, não há servidor nosso, e nada sobre si — nem sobre as publicações que lê — é recolhido.",
+        "points": [
+          "Tudo acontece dentro do seu navegador: as publicações que vê, oculta, copia ou arquiva nunca são enviadas, nem para nós nem para ninguém.",
+          "Sem rastreamento, sem análises, sem identificador: não temos forma de saber quem usa a extensão, nem como.",
+          "Nunca pede para ler os seus cookies nem a sua sessão do LinkedIn, e nunca contacta o LinkedIn nas suas costas — limita-se a carregar nos mesmos botões que carregaria.",
+          "Só está ativa em linkedin.com e fica totalmente inerte em todos os outros sites.",
+          "O arquivo de publicações fica apenas no seu dispositivo; pode exportá-lo ou apagá-lo nas definições a qualquer momento.",
+          "A área de transferência só é lida com um objetivo: recuperar a ligação da publicação que o próprio LinkedIn lá copia, quando carrega em Copiar ou ativa o arquivo de ligações.",
+          "O único pedido para o exterior é uma verificação anónima do número de versão num ficheiro público, para o avisar de uma atualização. Pode desativá-la, e a extensão fica totalmente offline.",
+          "Os erros ficam na consola do seu navegador. Nada é reportado a lado nenhum."
+        ],
+        "sourceNote": "O código-fonte é privado por opção. O LinkedIn remodela a sua interface constantemente, e as técnicas que mantêm cada ferramenta fiável resultam de um trabalho longo e paciente. Publicá-las seria entregar um kit pronto a quem constrói scrapers e ferramentas de recolha de dados — o contrário daquilo que esta extensão defende."
+      }
     }
   },
   "homepage": "https://extensions.josedacosta.net/en/extension/linkedin-enhancer",
