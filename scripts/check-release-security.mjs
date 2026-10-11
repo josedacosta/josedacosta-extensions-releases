@@ -3,7 +3,7 @@
 //
 // This repository is PUBLIC and must only ever distribute minified,
 // production-secured builds — never source code and never source maps
-// (see CLAUDE.md). This script inspects build archives and FAILS (exit 1) if it
+// (see AGENTS.md). This script inspects build archives and FAILS (exit 1) if it
 // finds a `.map` source map, a `sourceMappingURL` marker, or any source file
 // that would leak the original code.
 //

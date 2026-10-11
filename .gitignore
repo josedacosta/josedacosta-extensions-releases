@@ -11,7 +11,7 @@ Thumbs.db
 
 # ===== Build artifacts =====
 # Compiled builds are attached to GitHub Releases, never committed to the tree.
-# Source maps are never allowed here (see CLAUDE.md / check-release-security.mjs).
+# Source maps are never allowed here (see AGENTS.md / check-release-security.mjs).
 *.zip
 *.xpi
 *.crx
